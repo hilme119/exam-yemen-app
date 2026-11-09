@@ -49,7 +49,8 @@
             </div>
             <div class="nav-links">
                 <a href="#features">المميزات</a>
-                <a href="#about">عن التطبيق</a>
+                <a href="#grades">المراحل الدراسية</a>
+                <a href="#guide">دليل الاستخدام</a>
                 <a href="#contact">تواصل معنا</a>
                 <a href="/app/" class="btn-nav">دخول موقع الطالب</a>
             </div>
@@ -65,16 +66,16 @@
             <div class="hero-text">
                 <div class="badge fade-up">
                     <span class="pulse-dot"></span>
-                    الإصدار الأحدث v1.0.8 متوفر الآن
+                    الإصدار الأحدث v1.0.8 متوفر الآن • ويب وتطبيق
                 </div>
                 <h1 class="fade-up delay-1">دليلك الذكي نحو <span>التفوق</span> والنجاح</h1>
-                <p class="fade-up delay-2">تدرب على <strong>النماذج الوزارية الحقيقية</strong>، حل الأسئلة المؤتمتة، واحصل على نتيجتك وتصحيح أخطائك فوراً. ودع الطرق التقليدية وابدأ المذاكرة بطريقة تفاعلية وممتعة.</p>
+                <p class="fade-up delay-2">تدرب على <strong>النماذج الوزارية الحقيقية</strong> المؤتمتة لشهادة الثانوية العامة والصف التاسع. تصحيح فوري، شرح للأخطاء، وبنك أسئلة متكامل يرافقك خطوة بخطوة حتى يوم الامتحان.</p>
                 
                 <div class="hero-cta fade-up delay-3">
                     <a href="/app/" class="btn-primary glow-btn">
                         <ion-icon name="laptop-outline"></ion-icon>
                         <div class="btn-text">
-                            <span>للآيفون والكمبيوتر</span>
+                            <span>للآيفون والكمبيوتر والمتصفح</span>
                             <strong>دخول موقع الطالب</strong>
                         </div>
                     </a>
@@ -82,21 +83,23 @@
                         <ion-icon name="logo-android"></ion-icon>
                         <div class="btn-text">
                             <span>تطبيق أندرويد (v1.0.8)</span>
-                            <strong>تنزيل التطبيق مباشرة (APK)</strong>
+                            <strong>تحميل التطبيق مباشرة (APK)</strong>
                         </div>
                     </a>
                 </div>
 
-                
-
                 <div class="stats fade-up delay-4">
                     <div class="stat-item">
-                        <ion-icon name="documents"></ion-icon>
-                        <span>نماذج وزارية حقيقية</span>
+                        <ion-icon name="checkmark-done-circle"></ion-icon>
+                        <span>نماذج وزارية معتمدة</span>
+                    </div>
+                    <div class="stat-item">
+                        <ion-icon name="timer-outline"></ion-icon>
+                        <span>محاكاة وقت حقيقي</span>
                     </div>
                     <div class="stat-item">
                         <ion-icon name="flash"></ion-icon>
-                        <span>تصحيح فوري</span>
+                        <span>تصحيح فوري وتحليل</span>
                     </div>
                 </div>
             </div>
@@ -108,14 +111,14 @@
                     <div class="deco-card card-1 float-anim">
                         <ion-icon name="checkmark-circle" class="text-green"></ion-icon>
                         <div>
-                            <h4>إجابة صحيحة!</h4>
-                            <p>استمر في التقدم</p>
+                            <h4>إجابة صحيحة 100%</h4>
+                            <p>أداء رائع ومستمر</p>
                         </div>
                     </div>
                     <div class="deco-card card-2 float-anim-reverse">
-                        <ion-icon name="analytics" class="text-blue"></ion-icon>
+                        <ion-icon name="trophy" class="text-gold" style="color: #fbbf24;"></ion-icon>
                         <div>
-                            <h4>تحليل مستواك</h4>
+                            <h4>لوحة الصدارة</h4>
                             <p>أنت من المتصدرين</p>
                         </div>
                     </div>
@@ -124,78 +127,146 @@
         </div>
     </section>
 
+    <!-- Academic Stages Section -->
+    <section class="grades-section" id="grades">
+        <div class="section-header fade-up">
+            <div class="badge">
+                <ion-icon name="school-outline"></ion-icon>
+                المراحل الدراسية المعتمدة
+            </div>
+            <h2>اختر مرحلتك <span>وابدأ التدريب الآن</span></h2>
+            <p>نماذج وزارية رسمية ومؤتمتة مبوبة حسب مرحلتك وفرعك الدراسي بدقة متناهية.</p>
+        </div>
+
+        <div class="grades-grid">
+            <!-- Grade 9 -->
+            <div class="grade-card glass-panel fade-up">
+                <div class="grade-icon primary-gradient">
+                    <ion-icon name="school-outline"></ion-icon>
+                </div>
+                <div class="grade-badge">مناهج أساسي</div>
+                <h3>الصف التاسع الأساسي</h3>
+                <p>نماذج الامتحانات الوزارية للشهادة الأساسية لجميع المواد، مع كشف الإجابات النموذجية ومحاكاة دقيقة.</p>
+                <div class="grade-pills">
+                    <span>قرآن وإسلامية</span>
+                    <span>لغة عربية</span>
+                    <span>رياضيات</span>
+                    <span>علوم</span>
+                    <span>لغة إنجليزية</span>
+                    <span>اجتماعيات</span>
+                </div>
+                <a href="/app/" class="btn-grade">
+                    <span>دخول نماذج الصف التاسع</span>
+                    <ion-icon name="arrow-back-outline"></ion-icon>
+                </a>
+            </div>
+
+            <!-- Grade 12 Scientific -->
+            <div class="grade-card glass-panel featured-grade fade-up delay-1">
+                <div class="ribbon-tag">الشهادة الثانوية العامة</div>
+                <div class="grade-icon blue-gradient">
+                    <ion-icon name="flask-outline"></ion-icon>
+                </div>
+                <div class="grade-badge highlight">المسار العلمي</div>
+                <h3>الثالث الثانوي (علمي)</h3>
+                <p>أكبر بنك للنماذج الوزارية المؤتمتة للمواد العلمية، مع نظام التوقيت والتحليل المتقدم للأداء وحساب الدرجات.</p>
+                <div class="grade-pills">
+                    <span>كيمياء</span>
+                    <span>فيزياء</span>
+                    <span>أحياء</span>
+                    <span>تفاضل وتكامل</span>
+                    <span>جبر وهندسة</span>
+                    <span>لغة عربية</span>
+                    <span>لغة إنجليزية</span>
+                </div>
+                <a href="/app/" class="btn-grade btn-grade-featured">
+                    <span>دخول نماذج القسم العلمي</span>
+                    <ion-icon name="arrow-back-outline"></ion-icon>
+                </a>
+            </div>
+
+            <!-- Grade 12 Literary -->
+            <div class="grade-card glass-panel fade-up delay-2">
+                <div class="grade-icon orange-gradient">
+                    <ion-icon name="book-outline"></ion-icon>
+                </div>
+                <div class="grade-badge">المسار الأدبي</div>
+                <h3>الثالث الثانوي (أدبي)</h3>
+                <p>نماذج الامتحانات الوزارية الشاملة للمواد الأدبية والإنسانية مع الملاحظات التوضيحية وتدريب مكثف.</p>
+                <div class="grade-pills">
+                    <span>تاريخ</span>
+                    <span>جغرافيا</span>
+                    <span>فلسفة ومنطق</span>
+                    <span>لغة عربية</span>
+                    <span>لغة إنجليزية</span>
+                    <span>قرآن وإسلامية</span>
+                </div>
+                <a href="/app/" class="btn-grade">
+                    <span>دخول نماذج القسم الأدبي</span>
+                    <ion-icon name="arrow-back-outline"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Features Section -->
     <section class="features" id="features">
         <div class="section-header fade-up">
-            <h2>لماذا تختار <span>تطبيقنا؟</span></h2>
-            <p>لقد صممنا التطبيق بأحدث التقنيات ليوفر لك تجربة لا مثيل لها.</p>
+            <div class="badge">
+                <ion-icon name="sparkles-outline"></ion-icon>
+                مميزات المنصة والتطبيق
+            </div>
+            <h2>لماذا يفضل الطلاب <span>اختبارات اليمن؟</span></h2>
+            <p>صممنا كل أداة وخاصية بعناية فائقة لتساعدك على كسر رهبة الامتحان الوزاري وتحقيق أعلى الدرجات.</p>
         </div>
         
         <div class="features-grid">
             <div class="feature-card glass-panel fade-up">
                 <div class="icon-wrapper blue-glow">
-                    <ion-icon name="layers-outline"></ion-icon>
+                    <ion-icon name="documents-outline"></ion-icon>
                 </div>
-                <h3>بنك أسئلة ضخم</h3>
-                <p>جميع النماذج الوزارية السابقة مبوبة ومصنفة بعناية لكل مادة، لتدريب أعمق وأشمل.</p>
+                <h3>نماذج وزارية معتمدة</h3>
+                <p>أسئلة ونماذج امتحانات حقيقية مبوبة ومفروزة حسب المواد والأعوام ومطابقة لنمط الوزارة.</p>
             </div>
             
             <div class="feature-card glass-panel fade-up delay-1">
                 <div class="icon-wrapper purple-glow">
-                    <ion-icon name="speedometer-outline"></ion-icon>
+                    <ion-icon name="timer-outline"></ion-icon>
                 </div>
-                <h3>محاكاة للاختبار الحقيقي</h3>
-                <p>نظام مؤتمت مشابه تماماً لما ستواجهه في قاعة الامتحان الوزاري، ليكسر حاجز الخوف.</p>
+                <h3>محاكاة قاعة الامتحان</h3>
+                <p>نظام مؤتمت مع عداد تنازلي حقيقي لتدريبك على إدارة وقت الإجابة وتقليل التوتر قبل دخول اللجنة.</p>
             </div>
 
             <div class="feature-card glass-panel fade-up delay-2">
                 <div class="icon-wrapper green-glow">
-                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                    <ion-icon name="checkmark-done-circle-outline"></ion-icon>
                 </div>
-                <h3>نظام الملاحظات الذكي</h3>
-                <p>صادفت سؤالاً ترغب بالاستفسار عنه؟ أرسل ملاحظتك فوراً للإدارة وسيأتيك الرد الشافي لتتعلم من خطأك.</p>
+                <h3>تصحيح فوري وتحليل أداء</h3>
+                <p>احصل على نتيجتك النهائية بمجرد إنهاء الاختبار، واكتشف إجاباتك الصحيحة والخاطئة لتتعلم منها.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- How it works -->
-    <section class="how-it-works" id="about">
-        <div class="container">
-            <div class="hiw-content row">
-                <div class="hiw-image glass-panel fade-in">
-                    <!-- Video or Image placeholder -->
-                    <div class="play-btn">
-                        <ion-icon name="play"></ion-icon>
-                    </div>
-                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop" alt="Student Studying">
+            <div class="feature-card glass-panel fade-up delay-1">
+                <div class="icon-wrapper yellow-glow">
+                    <ion-icon name="trophy-outline"></ion-icon>
                 </div>
-                <div class="hiw-text fade-up">
-                    <h2>خطوات بسيطة تفصلك عن <span>النجاح</span></h2>
-                    
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-num">1</div>
-                            <div class="step-info">
-                                <h4>أنشئ حسابك</h4>
-                                <p>بخطوة واحدة وبسرية تامة، سجل دخولك لحفظ تقدمك.</p>
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-num">2</div>
-                            <div class="step-info">
-                                <h4>اختر مادتك</h4>
-                                <p>تصفح جميع المواد الدراسية واختر النموذج المراد حله.</p>
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-num">3</div>
-                            <div class="step-info">
-                                <h4>اختبر واستلم نتيجتك</h4>
-                                <p>أجب عن الأسئلة وفي ثوانٍ ستعرف مستواك وأخطائك.</p>
-                            </div>
-                        </div>
-                    </div>
+                <h3>لوحة الصدارة وأوائل الطلاب</h3>
+                <p>تنافس مع زملائك على مستوى المحافظة والجمهورية، واشهد اسمك يرتفع في لوحة الشرف الأكاديمية.</p>
+            </div>
+
+            <div class="feature-card glass-panel fade-up delay-2">
+                <div class="icon-wrapper cyan-glow">
+                    <ion-icon name="library-outline"></ion-icon>
                 </div>
+                <h3>مكتبة الملازم والـ PDF</h3>
+                <p>ملازم شرح معتمدة، ملخصات شاملة، وكتب ونماذج PDF جاهزة للقراءة والتحميل المباشر للرجوع إليها.</p>
+            </div>
+
+            <div class="feature-card glass-panel fade-up delay-3">
+                <div class="icon-wrapper pink-glow">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                </div>
+                <h3>نظام الاستفسارات والملاحظات</h3>
+                <p>صادفك سؤال غير واضح؟ أرسل ملاحظتك واستفسارك بضغطة زر وتلقى التوضيح من المشرفين والموجهين.</p>
             </div>
         </div>
     </section>
@@ -203,16 +274,23 @@
     <!-- Guide Section (How to Use) -->
     <section class="user-guide" id="guide">
         <div class="section-header fade-up">
-            <h2>دليلك الشامل <span>لاستخدام المنصة</span></h2>
-            <p>تعرف على خطوات التميز من إنشاء الحساب وحتى استلام النتيجة النهائية.</p>
+            <div class="badge">
+                <ion-icon name="compass-outline"></ion-icon>
+                خطوات بسيطة
+            </div>
+            <h2>دليلك الشامل <span>لاستخدام المنصة والتطبيق</span></h2>
+            <p>تعرف على خطوات التميز من إنشاء الحساب وحتى حل النماذج واستلام النتيجة النهائية.</p>
         </div>
 
         <div class="container">
             <!-- Video Tutorial Section -->
-            <div class="video-tutorial fade-up" style="text-align: center; margin-bottom: 4rem;">
-                <div class="glass-panel" style="padding: 1rem; border-radius: 20px; display: inline-block; max-width: 800px; width: 100%;">
-                    <h3 style="margin-bottom: 1rem; color: #fff; font-size: 1.5rem;">🎥 شاهد كيف تبدأ في منصة إكسام يمن</h3>
-                    <img src="assets/video/tutorial.webp" alt="Video Tutorial" style="width: 100%; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
+            <div class="video-tutorial fade-up" style="text-align: center; margin-bottom: 4.5rem;">
+                <div class="glass-panel" style="padding: 1.5rem; border-radius: 24px; display: inline-block; max-width: 850px; width: 100%; box-shadow: 0 20px 50px rgba(0,0,0,0.5); border: 1px solid rgba(56, 189, 248, 0.2);">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; margin-bottom: 1rem;">
+                        <ion-icon name="play-circle" style="font-size: 1.6rem; color: var(--primary);"></ion-icon>
+                        <h3 style="color: #fff; font-size: 1.35rem; margin: 0; font-family: var(--font-heading);">شاهد طريقة استخدام منصة وتطبيق اختبارات اليمن</h3>
+                    </div>
+                    <img src="assets/video/tutorial.webp" alt="Video Tutorial" style="width: 100%; border-radius: 16px; border: 1px solid rgba(255,255,255,0.08); display: block;" />
                 </div>
             </div>
 
@@ -305,40 +383,73 @@
         </div>
     </section>
 
-    <!-- About Developer Section -->
-    <section class="about-developer fade-up" id="about" style="padding: 5rem 2rem; position: relative; overflow: hidden;">
-        <!-- Background Glow -->
-        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 300px; height: 300px; background: rgba(59, 130, 246, 0.15); filter: blur(100px); border-radius: 50%; z-index: 0;"></div>
-        
-        <div class="container" style="position: relative; z-index: 1; text-align: center; max-width: 600px; margin: 0 auto;">
-            <div style="margin-bottom: 2rem;">
-                <h2 style="color: #fff; font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem; background: linear-gradient(135deg, #60A5FA, #EC4899); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">مُطور المنصة</h2>
-                <div style="width: 60px; height: 4px; background: linear-gradient(90deg, #3B82F6, transparent); margin: 0 auto; border-radius: 2px;"></div>
+    <!-- Contact & Official Channels Section -->
+    <section class="contact-section fade-up" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">
+                    <span class="pulse-dot"></span>
+                    قنوات التواصل والدعم الفني
+                </div>
+                <h2>تواصل معنا <span>والمساعدة</span></h2>
+                <p>فريق منصة اختبارات اليمن مستعد دائماً للإجابة عن استفساراتكم وتلقي مقترحاتكم وتقديم الدعم الفني اللازم.</p>
             </div>
             
-            <div class="glass-panel" style="padding: 3rem; border-radius: 30px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(20px);">
-                
-                <div style="position: relative; width: 100px; height: 100px; margin: 0 auto 1.5rem auto;">
-                    <div style="position: absolute; inset: -5px; background: linear-gradient(135deg, #3B82F6, #EC4899); border-radius: 50%; animation: spin 4s linear infinite;"></div>
-                    <div style="position: absolute; inset: 0; background: #0F172A; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                        <ion-icon name="code-slash-outline" style="font-size: 3rem; color: #60A5FA;"></ion-icon>
+            <div class="contact-grid">
+                <!-- WhatsApp Card -->
+                <div class="contact-card glass-panel whatsapp-card">
+                    <div>
+                        <div class="contact-header">
+                            <div class="contact-icon whatsapp-glow">
+                                <ion-icon name="logo-whatsapp"></ion-icon>
+                            </div>
+                            <div class="contact-meta">
+                                <span class="live-status">
+                                    <span class="status-dot green"></span>
+                                    خدمة الدعم المباشر
+                                </span>
+                                <h3>واتساب الدعم الفني</h3>
+                            </div>
+                        </div>
+                        <p class="contact-desc">
+                            تواصل معنا مباشرة عبر واتساب لطلب المساعدة الفورية، إرسال الاستفسارات حول النماذج، أو تقديم أي مقترحات وملاحظات.
+                        </p>
+                    </div>
+                    <div class="contact-action-box">
+                        <div class="contact-number" dir="ltr">+967 778 392 107</div>
+                        <a href="https://wa.me/967778392107" target="_blank" rel="noopener noreferrer" class="btn-channel btn-whatsapp-channel">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                            <span>مراسلة عبر واتساب</span>
+                        </a>
                     </div>
                 </div>
 
-                <p style="color: rgba(255, 255, 255, 0.8); font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem; font-weight: 300;">
-                    تم بناء وتطوير هذه المنصة بكل شغف واهتمام لتكون الرفيق الأول للطالب اليمني في رحلته نحو التفوق والنجاح.
-                </p>
-
-                <h3 style="color: #fff; font-size: 1.8rem; margin-bottom: 0.2rem; font-weight: 700; letter-spacing: 1px;">حلمي مختار الزمر</h3>
-                <h4 style="color: #60A5FA; margin-bottom: 2.5rem; font-weight: 400; font-family: 'Courier New', Courier, monospace; font-size: 1.1rem; letter-spacing: 2px;">Hilme Mokhtar Alzomoor</h4>
-                
-                <div style="display: flex; justify-content: center; gap: 15px;">
-                    <a href="https://wa.me/967778392107" target="_blank" title="تواصل عبر واتساب: 778392107" style="display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; background: rgba(37, 211, 102, 0.1); color: #25D366; border: 1px solid rgba(37, 211, 102, 0.3); border-radius: 50%; text-decoration: none; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 10px 25px -5px rgba(37, 211, 102, 0.2);" onmouseover="this.style.transform='translateY(-5px) scale(1.1)'; this.style.background='#25D366'; this.style.color='#fff';" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.background='rgba(37, 211, 102, 0.1)'; this.style.color='#25D366';">
-                        <ion-icon name="logo-whatsapp" style="font-size: 2rem;"></ion-icon>
-                    </a>
-                    <a href="https://t.me/v_99c" target="_blank" title="تواصل عبر تيليجرام: @v_99c" style="display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; background: rgba(0, 136, 204, 0.1); color: #0088cc; border: 1px solid rgba(0, 136, 204, 0.3); border-radius: 50%; text-decoration: none; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 10px 25px -5px rgba(0, 136, 204, 0.2);" onmouseover="this.style.transform='translateY(-5px) scale(1.1)'; this.style.background='#0088cc'; this.style.color='#fff';" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.background='rgba(0, 136, 204, 0.1)'; this.style.color='#0088cc';">
-                        <ion-icon name="paper-plane" style="font-size: 2rem;"></ion-icon>
-                    </a>
+                <!-- Telegram Card -->
+                <div class="contact-card glass-panel telegram-card">
+                    <div>
+                        <div class="contact-header">
+                            <div class="contact-icon telegram-glow">
+                                <ion-icon name="paper-plane"></ion-icon>
+                            </div>
+                            <div class="contact-meta">
+                                <span class="live-status">
+                                    <span class="status-dot blue"></span>
+                                    القناة والمجتمع الرسمي
+                                </span>
+                                <h3>قناة ومجتمع التيليجرام</h3>
+                            </div>
+                        </div>
+                        <p class="contact-desc">
+                            انضم إلى مجتمع طلاب اليمن على تيليجرام للحصول على أحدث النماذج الوزارية المؤتمتة، ملخصات المواد، وآخر الإعلانات والتحديثات.
+                        </p>
+                    </div>
+                    <div class="contact-action-box">
+                        <div class="contact-number" dir="ltr">@v_99c</div>
+                        <a href="https://t.me/v_99c" target="_blank" rel="noopener noreferrer" class="btn-channel btn-telegram-channel">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>الانضمام إلى تيليجرام</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -349,18 +460,27 @@
         <div class="footer-glass">
             <div class="footer-content">
                 <div class="logo">
-                    <ion-icon name="rocket"></ion-icon>
+                    <div class="logo-icon">
+                        <ion-icon name="rocket"></ion-icon>
+                    </div>
                     <span>اختبارات <strong>اليمن</strong></span>
                 </div>
-                <p>المنصة الأولى للتدريب على أسئلة الوزارة ونماذج الامتحانات النهائية في اليمن.</p>
+                <p>المنصة والرفيق الذكي الأول للتدريب على أسئلة ونماذج الامتحانات الوزارية في الجمهورية اليمنية.</p>
+                <div class="footer-links">
+                    <a href="#home">الرئيسية</a>
+                    <a href="#features">المميزات</a>
+                    <a href="#grades">المراحل الدراسية</a>
+                    <a href="#guide">دليل الاستخدام</a>
+                    <a href="#contact">الدعم الفني</a>
+                    <a href="/app/">موقع الطالب</a>
+                </div>
                 <div class="social-links">
-                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://wa.me/967778392107" target="_blank" rel="noopener noreferrer" title="واتساب الدعم"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    <a href="https://t.me/v_99c" target="_blank" rel="noopener noreferrer" title="تيليجرام"><ion-icon name="paper-plane"></ion-icon></a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>جميع الحقوق محفوظة &copy; 2026 اختبارات اليمن.</p>
+                <p>جميع الحقوق محفوظة &copy; 2026 منصة اختبارات اليمن.</p>
             </div>
         </div>
     </footer>

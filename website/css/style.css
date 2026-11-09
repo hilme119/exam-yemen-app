@@ -507,6 +507,9 @@ a {
 .blue-glow { box-shadow: inset 0 0 20px var(--primary-glow); border: 1px solid var(--primary); }
 .purple-glow { box-shadow: inset 0 0 20px rgba(129, 140, 248, 0.5); border: 1px solid var(--accent); }
 .green-glow { box-shadow: inset 0 0 20px rgba(74, 222, 128, 0.3); border: 1px solid var(--green); }
+.yellow-glow { box-shadow: inset 0 0 20px rgba(251, 191, 36, 0.4); border: 1px solid #fbbf24; }
+.cyan-glow { box-shadow: inset 0 0 20px rgba(34, 211, 238, 0.4); border: 1px solid #22d3ee; }
+.pink-glow { box-shadow: inset 0 0 20px rgba(244, 114, 182, 0.4); border: 1px solid #f472b6; }
 
 .feature-card h3 {
     font-size: 1.3rem;
@@ -857,6 +860,346 @@ footer {
 .delay-4 { transition-delay: 0.8s; }
 
 /* -----------------------------------
+   Academic Stages & Tracks
+   ----------------------------------- */
+.grades-section {
+    padding: 6rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grades-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.grade-card {
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.grade-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
+    border-color: rgba(56, 189, 248, 0.35);
+}
+
+.grade-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1.25rem;
+}
+
+.primary-gradient {
+    background: linear-gradient(135deg, #0284c7, #38bdf8);
+    box-shadow: 0 8px 25px rgba(56, 189, 248, 0.35);
+}
+
+.blue-gradient {
+    background: linear-gradient(135deg, #2563eb, #60a5fa);
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.35);
+}
+
+.orange-gradient {
+    background: linear-gradient(135deg, #d97706, #fbbf24);
+    box-shadow: 0 8px 25px rgba(245, 158, 11, 0.35);
+}
+
+.grade-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.35rem 0.85rem;
+    border-radius: 100px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--text-muted);
+    width: fit-content;
+    margin-bottom: 0.75rem;
+}
+
+.grade-badge.highlight {
+    background: rgba(56, 189, 248, 0.15);
+    color: var(--primary);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.grade-card h3 {
+    font-size: 1.45rem;
+    margin-bottom: 0.75rem;
+    color: #fff;
+}
+
+.grade-card p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.grade-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    margin-top: auto;
+}
+
+.grade-pills span {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 0.35rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    color: #cbd5e1;
+}
+
+.btn-grade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 1.4rem;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: #fff;
+    font-weight: 700;
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.btn-grade:hover {
+    background: rgba(56, 189, 248, 0.15);
+    border-color: var(--primary);
+    transform: translateX(-4px);
+    color: var(--primary);
+}
+
+.featured-grade {
+    border-color: rgba(56, 189, 248, 0.4);
+    box-shadow: 0 10px 40px rgba(56, 189, 248, 0.12);
+}
+
+.ribbon-tag {
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    color: #fff;
+    padding: 0.3rem 0.85rem;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.btn-grade-featured {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: #fff;
+    box-shadow: 0 8px 25px var(--primary-glow);
+    border: none;
+}
+
+.btn-grade-featured:hover {
+    transform: translateX(-4px) scale(1.02);
+    box-shadow: 0 12px 30px var(--primary-glow);
+    color: #fff;
+}
+
+/* -----------------------------------
+   Contact & Official Support Hub
+   ----------------------------------- */
+.contact-section {
+    padding: 6rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.contact-card {
+    padding: 2.75rem 2.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.35s ease;
+}
+
+.whatsapp-card:hover {
+    border-color: rgba(37, 211, 102, 0.45);
+    box-shadow: 0 20px 45px rgba(37, 211, 102, 0.18);
+    transform: translateY(-6px);
+}
+
+.telegram-card:hover {
+    border-color: rgba(0, 136, 204, 0.45);
+    box-shadow: 0 20px 45px rgba(0, 136, 204, 0.18);
+    transform: translateY(-6px);
+}
+
+.contact-header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.contact-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    flex-shrink: 0;
+}
+
+.whatsapp-glow {
+    background: rgba(37, 211, 102, 0.12);
+    color: #25D366;
+    border: 1px solid rgba(37, 211, 102, 0.35);
+    box-shadow: 0 0 25px rgba(37, 211, 102, 0.2);
+}
+
+.telegram-glow {
+    background: rgba(0, 136, 204, 0.12);
+    color: #0088cc;
+    border: 1px solid rgba(0, 136, 204, 0.35);
+    box-shadow: 0 0 25px rgba(0, 136, 204, 0.2);
+}
+
+.contact-meta h3 {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-top: 0.2rem;
+}
+
+.live-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.status-dot.green {
+    background: #25D366;
+    box-shadow: 0 0 8px #25D366;
+}
+
+.status-dot.blue {
+    background: #0088cc;
+    box-shadow: 0 0 8px #0088cc;
+}
+
+.contact-desc {
+    color: var(--text-muted);
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 2rem;
+}
+
+.contact-action-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-number {
+    font-family: monospace, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.65rem 1rem;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.btn-channel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 1rem 1.8rem;
+    border-radius: 14px;
+    font-family: var(--font-heading);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-channel ion-icon {
+    font-size: 1.5rem;
+}
+
+.btn-whatsapp-channel {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.35);
+}
+
+.btn-whatsapp-channel:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 12px 35px rgba(37, 211, 102, 0.5);
+}
+
+.btn-telegram-channel {
+    background: linear-gradient(135deg, #0088cc, #006699);
+    box-shadow: 0 8px 25px rgba(0, 136, 204, 0.35);
+}
+
+.btn-telegram-channel:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 12px 35px rgba(0, 136, 204, 0.5);
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links a {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+}
+
+/* -----------------------------------
    Responsive Design
    ----------------------------------- */
 @media (max-width: 992px) {
@@ -894,10 +1237,13 @@ footer {
         top: 100%;
         left: 0;
         width: 100%;
-        background: var(--bg-surface);
+        background: rgba(15, 23, 42, 0.98);
+        backdrop-filter: blur(25px);
         flex-direction: column;
         padding: 2rem;
+        gap: 1.5rem;
         border-bottom: 1px solid var(--glass-border);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
     }
     
     .nav-links.active {
@@ -908,10 +1254,33 @@ footer {
         display: block;
     }
     
+    .hero {
+        padding: 7rem 1.5rem 3rem;
+    }
+
     .hero h1 { font-size: 2.2rem; }
     
     .btn-primary, .btn-secondary {
         width: 100%;
+        justify-content: center;
+    }
+
+    .grades-grid, .contact-grid, .features-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .grade-card, .contact-card, .feature-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .stats {
+        flex-wrap: wrap;
+        gap: 1rem;
         justify-content: center;
     }
 }
