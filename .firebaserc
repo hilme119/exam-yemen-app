@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "yemen-national-exam-system"
+  },
+  "targets": {
+    "yemen-national-exam-system": {
+      "hosting": {
+        "website": [
+          "yemen-national-exam-system"
+        ],
+        "admin": [
+          "yemen-exam-admin"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

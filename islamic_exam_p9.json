@@ -1,0 +1,620 @@
+{
+  "exam_info": {
+    "title": "اختبار التربية الإسلامية - الشهادة الأساسية (الصف التاسع)",
+    "year": "2025/2026 - 1447هـ",
+    "form_code": "P.9",
+    "total_questions": 50
+  },
+  "questions": [
+    {
+      "id": "islamic_p9_1",
+      "number": 1,
+      "question": "الإيمان يوجه الإنسان إلى العمل والإنتاج.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_2",
+      "number": 2,
+      "question": "الإنسان هو المخلوق الوحيد الذي يسبح لله تعالى.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_3",
+      "number": 3,
+      "question": "المعرفة القلبية لله تعالى تعني استشعار قدرة الله تعالى ونعمه.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_4",
+      "number": 4,
+      "question": "أسماء الله تعالى وصفاته لا تتغير ولا تتبدل.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_5",
+      "number": 5,
+      "question": "إخبار القرآن الكريم عن أمور المستقبل وتحققها يُعد إعجازاً في المحتوى.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_6",
+      "number": 6,
+      "question": "البراءة من أعداء الله من علامات البغض في الله تعالى.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_7",
+      "number": 7,
+      "question": "نشر الخير والصلاح من آداب الدعوة إلى الخير.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_8",
+      "number": 8,
+      "question": "معنى (يكف الله بها وجه) يصون وجهه عن سؤال الناس.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_9",
+      "number": 9,
+      "question": "الدعوة إلى الخير من الواجبات السياسية الضرورية.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_10",
+      "number": 10,
+      "question": "قتل النفس من أكبر الكبائر بعد الكفر بالله.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_11",
+      "number": 11,
+      "question": "يحرم الحاج المتمتع من الميقات أو من قبله.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_12",
+      "number": 12,
+      "question": "القفازات ليست من محظورات الإحرام.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_13",
+      "number": 13,
+      "question": "يكون الوقوف بعرفة في اليوم التاسع من ذي الحجة.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_14",
+      "number": 14,
+      "question": "الحاج المتمتع الذي لا يجد هدياً يلزم صيام عشرة أيام في الحج.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_15",
+      "number": 15,
+      "question": "ابن العم محرم للمرأة عند أداء الحج.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_16",
+      "number": 16,
+      "question": "(لقد حكَمْتَ فيهم بحكم الله) قالها الرسول ﷺ للإمام علي عليه السلام عند الحكم على يهود بني النضير.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_17",
+      "number": 17,
+      "question": "كان صلح الحديبية مقدمة لفتح مكة.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_18",
+      "number": 18,
+      "question": "جعل اليهود بعد جلائهم من المدينة حصون بني النضير مركزاً للتآمر على المسلمين.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_19",
+      "number": 19,
+      "question": "أسلمت قبيلة همدان على يد الإمام علي عليه السلام.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_20",
+      "number": 20,
+      "question": "حذيفة بن اليمان كان حليفاً للمهاجرين.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_21",
+      "number": 21,
+      "question": "قال الله تعالى: (ذَلِكَ بِأَنَّ اللَّهَ مَوْلَى الَّذِينَ آمَنُوا) تدل الآية على شعور المؤمن بأنه في ...",
+      "type": "mcq",
+      "options": [
+        "ذل ومهانة",
+        "يأس وإحباط",
+        "ولاية لله",
+        "قلق وخوف"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "islamic_p9_22",
+      "number": 22,
+      "question": "قال الله تعالى: (وَإِذَا قِيلَ لَهُمْ تَعَالَوْا إِلَى مَا أَنْزَلَ اللَّهُ وَإِلَى الرَّسُولِ رَأَيْتَ الْمُنَافِقِينَ يَصُدُّونَ عَنْكَ صُدُودًا) تدل الآية على أن من مظاهر النفاق",
+      "type": "mcq",
+      "options": [
+        "القعود عن الجهاد",
+        "الكذب والخيانة",
+        "الصد عن هدى الله",
+        "نقض العهود"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "islamic_p9_23",
+      "number": 23,
+      "question": "القرآن الكريم خطاب موجه إلى جميع ...",
+      "type": "mcq",
+      "options": [
+        "الناس",
+        "العرب",
+        "المسلمين",
+        "المؤمنين"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_24",
+      "number": 24,
+      "question": "التزود بالعلم النافع من عوامل ...... الإيمان.",
+      "type": "mcq",
+      "options": [
+        "بطلان",
+        "زوال",
+        "نقصان",
+        "زيادة"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "islamic_p9_25",
+      "number": 25,
+      "question": "جميع ما يلي من صور الطاغوت عدا ...",
+      "type": "mcq",
+      "options": [
+        "الحكم بغير ما أنزل الله",
+        "مناصرة المؤمنين",
+        "الاستبداد والطغيان",
+        "ما يعبد من دون الله"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_26",
+      "number": 26,
+      "question": "كل ما يلي من الشعائر الزمانية عدا ...",
+      "type": "mcq",
+      "options": [
+        "أشهر الحج",
+        "الأشهر الحرم",
+        "عيد الفطر",
+        "الكتب المنزلة"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "islamic_p9_27",
+      "number": 27,
+      "question": "حث الإسلام على حسن اختيار الجليس على أسس ...",
+      "type": "mcq",
+      "options": [
+        "اجتماعية",
+        "سياسية",
+        "نفسية",
+        "إيمانية"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "islamic_p9_28",
+      "number": 28,
+      "question": "اتهام الناس دون حجة أو دليل يعُدّ ...",
+      "type": "mcq",
+      "options": [
+        "تجسساً",
+        "تحسساً",
+        "سوء ظن",
+        "غمط الناس"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "islamic_p9_29",
+      "number": 29,
+      "question": "قال رسول الله ﷺ (لا يدخل الجنة من كان في قلبه ...... ذرة من كبر).",
+      "type": "mcq",
+      "options": [
+        "وزن",
+        "مقدار",
+        "مثقال",
+        "قيراط"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "islamic_p9_30",
+      "number": 30,
+      "question": "أسباب نشر الفساد في المجتمع القدوة ...",
+      "type": "mcq",
+      "options": [
+        "الطيبة",
+        "الصالحة",
+        "الحسنة",
+        "السيئة"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "islamic_p9_31",
+      "number": 31,
+      "question": "معنى تداعى له ...",
+      "type": "mcq",
+      "options": [
+        "أهدى له",
+        "تسابق معه",
+        "تجاوب معه",
+        "أعطى له"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "islamic_p9_32",
+      "number": 32,
+      "question": "قال رسول الله ﷺ (أيها ...... إن الله طيب لا يقبل إلا طيباً).",
+      "type": "mcq",
+      "options": [
+        "الناس",
+        "المؤمنين",
+        "المسلمين",
+        "المنفقين"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_33",
+      "number": 33,
+      "question": "حكم لبس الحرير والذهب للرجال ...",
+      "type": "mcq",
+      "options": [
+        "مباح",
+        "جائز",
+        "محرم",
+        "مكروه"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "islamic_p9_34",
+      "number": 34,
+      "question": "الإحرام هو نية الدخول للحج والعمرة مقروناً بـ ...",
+      "type": "mcq",
+      "options": [
+        "التلبية",
+        "الدعاء",
+        "الذكر",
+        "الاستغفار"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_35",
+      "number": 35,
+      "question": "حكم أكل لحوم الحيوانات المفترسة ...",
+      "type": "mcq",
+      "options": [
+        "جائز",
+        "مستحب",
+        "محرم",
+        "مباح"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "islamic_p9_36",
+      "number": 36,
+      "question": "اليمين ...... يقصد بها تأكيد الكلام أو نفيه بما يغلب في ظن الحالف واعتقاده.",
+      "type": "mcq",
+      "options": [
+        "الغموس",
+        "اللغو",
+        "الفاجرة",
+        "المعقودة"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_37",
+      "number": 37,
+      "question": "حكم زيارة النبي ﷺ ...",
+      "type": "mcq",
+      "options": [
+        "واجبة",
+        "مستحبة",
+        "فريضة",
+        "مكروهة"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_38",
+      "number": 38,
+      "question": "العمرة تكره في الأيام التالية عدا ...",
+      "type": "mcq",
+      "options": [
+        "يوم النحر",
+        "يوم عرفة",
+        "أيام التشريق",
+        "الست من شوال"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "islamic_p9_39",
+      "number": 39,
+      "question": "حرم الله تعالى شرب الخمر تحريماً ...",
+      "type": "mcq",
+      "options": [
+        "جزئياً",
+        "مطلقاً",
+        "مقيداً",
+        "مؤقتاً"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_40",
+      "number": 40,
+      "question": "العقل من ...... وجوب الحج.",
+      "type": "mcq",
+      "options": [
+        "شروط",
+        "أركان",
+        "مناسك",
+        "سنن"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_41",
+      "number": 41,
+      "question": "النتائج العظيمة المؤثرة في الأمة تأتي نتيجة القرارات ...",
+      "type": "mcq",
+      "options": [
+        "العشوائية",
+        "الارتجالية",
+        "الخاطئة",
+        "الحكيمة"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "islamic_p9_42",
+      "number": 42,
+      "question": "سلمان الفارسي ونعيم بن مسعود وحذيفة بن اليمان شخصيات اجتمعت يوم ...",
+      "type": "mcq",
+      "options": [
+        "تبوك",
+        "الأحزاب",
+        "بدر",
+        "أحد"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "islamic_p9_43",
+      "number": 43,
+      "question": "امتلكت المدينة المنورة المؤهلات التي جعلتها عاصمة الدولة ...",
+      "type": "mcq",
+      "options": [
+        "الإسلامية",
+        "الفارسية",
+        "الرومانية",
+        "العثمانية"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_44",
+      "number": 44,
+      "question": "بعد هزيمة الأحزاب سقطت هيبة ...... بين العرب.",
+      "type": "mcq",
+      "options": [
+        "اليهود",
+        "المنافقين",
+        "هوازن",
+        "قريش"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "islamic_p9_45",
+      "number": 45,
+      "question": "(إنما أنت فينا رجل واحد فخذل عنا إن استطعت) قائل العبارة ...",
+      "type": "mcq",
+      "options": [
+        "الرسول صلى الله عليه وآله وسلم",
+        "الإمام علي عليه السلام",
+        "حمزة بن عبدالمطلب",
+        "نعيم بن مسعود"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_46",
+      "number": 46,
+      "question": "كان فتح مكة في السنة الثامنة الهجرية من شهر ...",
+      "type": "mcq",
+      "options": [
+        "شوال",
+        "شعبان",
+        "رمضان",
+        "رجب"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "islamic_p9_47",
+      "number": 47,
+      "question": "قبيلة عربية تحالفت في غزوة تبوك مع الروم ضد المسلمين ...",
+      "type": "mcq",
+      "options": [
+        "غطفان",
+        "أشجع",
+        "سليم",
+        "غسان"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "islamic_p9_48",
+      "number": 48,
+      "question": "سار الجيش الإسلامي في مؤتة حتى نزل أرض معان التابعة لـ ...",
+      "type": "mcq",
+      "options": [
+        "فارس",
+        "الحبشة",
+        "دمشق",
+        "الروم"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "islamic_p9_49",
+      "number": 49,
+      "question": "(تلك غنيمة المسلمين غداً إن شاء الله) قصد بها الرسول ﷺ غنيمة غزوة ...",
+      "type": "mcq",
+      "options": [
+        "حنين",
+        "مؤتة",
+        "تبوك",
+        "خيبر"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "islamic_p9_50",
+      "number": 50,
+      "question": "الملك الذي استجاب لدعوة النبي ﷺ وأعلن إسلامه ...",
+      "type": "mcq",
+      "options": [
+        "النجاشي",
+        "المقوقس",
+        "كسرى",
+        "هرقل"
+      ],
+      "correctAnswerIndex": 0
+    }
+  ]
+}

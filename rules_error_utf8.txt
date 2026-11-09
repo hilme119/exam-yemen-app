@@ -1,0 +1,39 @@
+﻿node.exe : 
+(node:29620) 
+[DEP0040] 
+DeprecationWarning: 
+The `punycode` 
+module is 
+deprecated. Please 
+use a userland 
+alternative instead.
+At line:1 char:1
++ & "C:\Program File
+s\nodejs/node.exe" 
+"C:\Program Files\no
+dejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo  
+            : 
+NotSpecified    : 
+((node:29620) [D.   
+ ..native 
+instead.:S    
+tring) [], RemoteEx 
+   ception
+    + 
+FullyQualifiedErr   
+ orId : 
+NativeComman    
+dError
+ 
+(Use `node 
+--trace-deprecation 
+...` to show where 
+the warning was 
+created)
+
+[1m[31mError:[39m[22m Cannot understand what targets to deploy/serve. No targets in firebase.json match '--only firestore:rules'. If you are using PowerShell make sure you place quotes around any comma-separated lists (ex: --only "functions,firestore").

@@ -1,0 +1,577 @@
+{
+  "exam_info": {
+    "title": "اختبار اللغة العربية - الشهادة الأساسية (الصف التاسع)",
+    "year": "2025/2026 - 1447هـ",
+    "form_code": "P.9",
+    "total_questions": 46,
+    "subject": "اللغة العربية"
+  },
+  "questions": [
+    {
+      "id": "arabic_p9_1",
+      "number": 1,
+      "question": "تتجسد الرقابة الإلهية في رقابة الإنسان لأعماله وإصلاح نفسه إذا ابتعدت عن الطريق الصحيح.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_2",
+      "number": 2,
+      "question": "ما يميز سقوف المساجد اليمنية أنها مزخرفة بزخارف محفورة وبارزة بأسلوب فني فريد. معنى (بارزه): جديدة.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_3",
+      "number": 3,
+      "question": "ظهرت موالاة الإمام الشافعي لآل البيت جلية في مواقفه وفتاواه. ضد كلمة (جلية): ظاهرة.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_4",
+      "number": 4,
+      "question": "كان الإمام زيد بن علي – عليه السلام – من أعلم أهل عصره بالقرآن وأكثرهم فهماً لمراميه. تدل العبارة على الفقه والمعرفة.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_5",
+      "number": 5,
+      "question": "(أنصف الله وأنصف الناس من نفسك). فكرة العبارة هو الشدة في الحكم.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_6",
+      "number": 6,
+      "question": "(وأسأل لسان المعالي). جمع كلمة (لسان): ألسن.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_7",
+      "number": 7,
+      "question": "(نسفوا بناء الشرك فهو خرائب). يدل شطر البيت على التسامح مع المشركين.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_8",
+      "number": 8,
+      "question": "(قالت لأترابها والصيف يحتضر). (والصيف يحتضر): تصوير للصيف بإنسان.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_9",
+      "number": 9,
+      "question": "صيغ المبالغة: أسماء مشتقة محولة عن صيغة (الفاعل) الدالة على اسم الفاعل بقصد المبالغة والكثرة.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_10",
+      "number": 10,
+      "question": "إذا كان الاستثناء تاماً مثبتاً فإنه يجوز نصب الاسم الواقع بعد (إلا).",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_11",
+      "number": 11,
+      "question": "حفظت القرآن ما خلا جزأين. إعراب كلمة (جزأين): مفعول به.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_12",
+      "number": 12,
+      "question": "لا حبذا الغيبة والنميمة. فاعل (حب): الغيبة.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_13",
+      "number": 13,
+      "question": "يا معلمة الصف اشرحي الدرس. الضبط الصحيح لآخر كلمة (معلمة): الكسرة.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_14",
+      "number": 14,
+      "question": "يا صادقاً حفظك الله. كلمة (صادق): مشتق نوعه اسم فاعل.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_15",
+      "number": 15,
+      "question": "ترسم الألف اللينة طويلة إذا كانت ثالثة أصلها واو.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_16",
+      "number": 16,
+      "question": "(لكن): كلمة وافق رسمها نطقها.",
+      "type": "true_false",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_17",
+      "number": 17,
+      "question": "من أهداف الحرب الناعمة جعل المسلم كالإنسان الآلي. الفكرة في العبارة:",
+      "type": "mcq",
+      "options": [
+        "حرية المسلم",
+        "التحكم بالمسلم",
+        "فرض العدالة",
+        "تنفيذ القانون"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_18",
+      "number": 18,
+      "question": "تقوم شبكة الإنترنت على تيسير التواصل والتجارة. معنى كلمة (تيسير):",
+      "type": "mcq",
+      "options": [
+        "تقليل",
+        "تجديد",
+        "تأمين",
+        "تسهيل"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "arabic_p9_19",
+      "number": 19,
+      "question": "استمرت اللغة العربية دون اضمحلال خصائصها. المقصود بكلمة (اضمحلال):",
+      "type": "mcq",
+      "options": [
+        "تكامل",
+        "تفاعل",
+        "تلاشي",
+        "تزايد"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "arabic_p9_20",
+      "number": 20,
+      "question": "ترك التعالي والتكبر على الناس خلق حميد. تشير العبارة إلى:",
+      "type": "mcq",
+      "options": [
+        "التواضع",
+        "الذل",
+        "الضعف",
+        "الكبر"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_21",
+      "number": 21,
+      "question": "الله - عز وجل - يعلم الأسرار والخفايا. بين كلمتي (أسرار – خفايا):",
+      "type": "mcq",
+      "options": [
+        "ترادف",
+        "تضاد",
+        "تشبيه",
+        "تجانس"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_22",
+      "number": 22,
+      "question": "ثقافة الاتباع بمثابة السفينة التي ينجو من ركبها ويغرق من تخلف عنها. بين كلمتي (ينجو – يغرق):",
+      "type": "mcq",
+      "options": [
+        "ترادف",
+        "تضاد",
+        "تجانس",
+        "تشبيه"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_23",
+      "number": 23,
+      "question": "مما تناوله نص (عباد الرحمن) من أفكار فضل:",
+      "type": "mcq",
+      "options": [
+        "الدعاء",
+        "الصيام",
+        "الحج",
+        "الزكاة"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_24",
+      "number": 24,
+      "question": "(لقام طوعاً يلبي صوت داعينا). معنى كلمة (يلبي):",
+      "type": "mcq",
+      "options": [
+        "يفهم",
+        "يفكر",
+        "يعمل",
+        "يجيب"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "arabic_p9_25",
+      "number": 25,
+      "question": "فدعا فلبى في القبائل ... *** مستضعفون قلائل أعضاء. الكلمة التي تكمل البيت:",
+      "type": "mcq",
+      "options": [
+        "ثلة",
+        "عصبة",
+        "رفقة",
+        "أمة"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_26",
+      "number": 26,
+      "question": "(ولا تسرعن إلى بادرة وجدت منها مندوحة). ضد كلمة (مندوحة):",
+      "type": "mcq",
+      "options": [
+        "قريبة",
+        "مهملة",
+        "ضعيفة",
+        "ضيقة"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "arabic_p9_27",
+      "number": 27,
+      "question": "قول النبي الكريم: (لوددت أني أغزو في سبيل الله فأقتل). دليل على:",
+      "type": "mcq",
+      "options": [
+        "منزلة الشهيد",
+        "كثرة القتال",
+        "النصر في المعارك",
+        "كثرة الأعداء"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_28",
+      "number": 28,
+      "question": "(ونشرت الحنان والخير فيهم). يدل شطر البيت على:",
+      "type": "mcq",
+      "options": [
+        "التعب",
+        "الأنانية",
+        "المحبة",
+        "الزهد"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "arabic_p9_29",
+      "number": 29,
+      "question": "الجمال الفني في قول الشاعر: (عاد الربيع إلى الدنيا بموكبه). هو:",
+      "type": "mcq",
+      "options": [
+        "تضاد",
+        "تشخيص",
+        "ترادف",
+        "تجانس"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_30",
+      "number": 30,
+      "question": "القسم في قول الرسول الكريم – صلى الله عليه وآله وسلم – : (والذي نفس محمد بيده). أفاد:",
+      "type": "mcq",
+      "options": [
+        "التشبيه",
+        "التمثيل",
+        "التأكيد",
+        "التحدي"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "arabic_p9_31",
+      "number": 31,
+      "question": "ما أكثر الخيرات في بلادنا (ما) أداة:",
+      "type": "mcq",
+      "options": [
+        "تعجب",
+        "شرط",
+        "نداء",
+        "استفهام"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_32",
+      "number": 32,
+      "question": "أداة شرط جازمة تستخدم لربط الجواب بالشرط:",
+      "type": "mcq",
+      "options": [
+        "إن",
+        "متى",
+        "من",
+        "أين"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_33",
+      "number": 33,
+      "question": "يعرب الاسم بعد (ما عدا) :",
+      "type": "mcq",
+      "options": [
+        "مضافاً إليه",
+        "مفعولاً به",
+        "اسماً مجروراً",
+        "مبتدأً مؤخراً"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_34",
+      "number": 34,
+      "question": "نعم قولاً الصدق. أسلوب:",
+      "type": "mcq",
+      "options": [
+        "إغراء",
+        "مدح",
+        "تعجب",
+        "شرط"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_35",
+      "number": 35,
+      "question": "الفعل الذي يصح التعجب منه بطريقة مباشرة:",
+      "type": "mcq",
+      "options": [
+        "استشار",
+        "اخضر",
+        "جمل",
+        "ازدهر"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "arabic_p9_36",
+      "number": 36,
+      "question": "يا أمة السلام انفقي مما تحبين. الضبط الصحيح لأخر كلمة (أمة):",
+      "type": "mcq",
+      "options": [
+        "الكسرة",
+        "الضمة",
+        "الفتحة",
+        "السكون"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "arabic_p9_37",
+      "number": 37,
+      "question": "عبدالله رجل محسن. (محسن) مشتق نوعه:",
+      "type": "mcq",
+      "options": [
+        "اسم فاعل",
+        "صيغة مبالغة",
+        "اسم مفعول",
+        "اسم مصدر"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "arabic_p9_38",
+      "number": 38,
+      "question": "للبحث عن كلمة (أشكال) في مختار الصحاح نجدها في باب:",
+      "type": "mcq",
+      "options": [
+        "الألف",
+        "الشين",
+        "الكاف",
+        "اللام"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "arabic_p9_39",
+      "number": 39,
+      "question": "الأفعال التالية مزيدة ما عدا:",
+      "type": "mcq",
+      "options": [
+        "أقام",
+        "انتصر",
+        "وسوس",
+        "استعان"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "arabic_p9_40",
+      "number": 40,
+      "question": "العلامة ( - - ) ترسم طرفي الجملة:",
+      "type": "mcq",
+      "options": [
+        "الشرطية",
+        "التعجبية",
+        "الاعتراضية",
+        "الاستفهامية"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "arabic_p9_41",
+      "number": 41,
+      "question": "قال الله تعالى: (وَالَّذِي قَدَّرَ فَهَدَى) رسمت الألف اللينة (ياء) غير منقوطة في كلمة (فَهَدَى) لأنها؛ ثالثة:",
+      "type": "mcq",
+      "options": [
+        "أصلها ألف",
+        "أصلية",
+        "أصلها واو",
+        "أصلها ياء"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "arabic_p9_42",
+      "number": 42,
+      "question": "سأل المعلم طلابه. رسمت الهمزة المتوسطة على ألف في كلمة (سأل) لأنها؛ مفتوحة وما قبلها:",
+      "type": "mcq",
+      "options": [
+        "مكسور",
+        "مضموم",
+        "مفتوح",
+        "ساكن"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "arabic_p9_43",
+      "number": 43,
+      "question": "الكلمات التالية بدأت بهمزة قطع ما عدا:",
+      "type": "mcq",
+      "options": [
+        "أبدع",
+        "أمر",
+        "استمر",
+        "أودع"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "arabic_p9_44",
+      "number": 44,
+      "question": "شعور الإنسان الدائم بحضور الله تعالى والخوف منه في السر والعلن. يمكن التعبير عن الفكرة السابقة بالعنوان التالي:",
+      "type": "mcq",
+      "options": [
+        "الحرب الناعمة",
+        "ثقافة الإتباع",
+        "الرقابة الإلهية",
+        "التواضع"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "arabic_p9_45",
+      "number": 45,
+      "question": "أحد الحروف التالية ينزل عن السطر عند رسمه في آخر الكلمة:",
+      "type": "mcq",
+      "options": [
+        "ب",
+        "د",
+        "ع",
+        "أ"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "arabic_p9_46",
+      "number": 46,
+      "question": "إحدى الكلمات التالية رسمت حروفها بخط الرقعة:",
+      "type": "mcq",
+      "options": [
+        "الإيمان",
+        "الهوية",
+        "الإسلامية",
+        "السلام"
+      ],
+      "correctAnswerIndex": 2
+    }
+  ]
+}

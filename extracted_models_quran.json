@@ -1,0 +1,3302 @@
+{
+  "P.53": [
+    {
+      "questionNumber": 1,
+      "id": "q_001",
+      "order": 1,
+      "text": "وصف الله تعالى القرآن بالحكيم في بداية سورة لقمان ٔالن كل آياته ال تخلو من الحكمة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 2,
+      "id": "q_002",
+      "order": 2,
+      "text": "الدعوة إلى الله تتطلب الأمر بالمعروف والنهي عن المنكر",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 3,
+      "id": "q_003",
+      "order": 3,
+      "text": "تعد نعمة الهداية من أعظم النعم الظاهرة التي أنعم الله بها على الإنسان",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 4,
+      "id": "q_004",
+      "order": 4,
+      "text": "يلجأ الكفار إلى الله حال الرخاء ويجحدونه وقت الشدة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 5,
+      "id": "q_005",
+      "order": 5,
+      "text": "تفخم الراء في أربعة مواضع",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 6,
+      "id": "q_006",
+      "order": 6,
+      "text": "(وَلَقَدا عَلِمانَا الامُساتَأاخِرِينَ) حكم الراء في الآية هو الترقيق",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 7,
+      "id": "q_007",
+      "order": 7,
+      "text": "يتحمل الأبناء جزءاً من ذنوب آبائهم يوم القيامة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 8,
+      "id": "q_008",
+      "order": 8,
+      "text": "الشهداء قد أمّنَهُم الله من عذاب الدنيا",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 9,
+      "id": "q_009",
+      "order": 9,
+      "text": "قال تعالى: (فَهُما مُقامَحُونَ) أي: خافضو رؤوسهم ال يستطيعون رفعها",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 10,
+      "id": "q_010",
+      "order": 10,
+      "text": "صدّق أهل القرية بدعوة رسل الله",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 11,
+      "id": "q_011",
+      "order": 11,
+      "text": "وقف المعانقة: هو جواز الوقف في أحد موضعين متقاربين",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 12,
+      "id": "q_012",
+      "order": 12,
+      "text": "قال تعالى: (وَآَيَةٌ لَهُمُ الأا َرا ضُ الامَياتَةُ) أي: الصالحة للزراعة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 13,
+      "id": "q_013",
+      "order": 13,
+      "text": "يجود الكفار بإنفاق أموالهم على الفقراء ليقبلها الله منهم",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 14,
+      "id": "q_014",
+      "order": 14,
+      "text": "من يطل الله في عمره يتحول إلى ضعف وعجز",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 15,
+      "id": "q_015",
+      "order": 15,
+      "text": "الكفار يتأثرون بالقرآن الكريم ويؤمنون به",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 16,
+      "id": "q_016",
+      "order": 16,
+      "text": "مخارج الحروف: هي الأماكن التي تنشأ منها الحروف عند النطق",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 17,
+      "id": "q_017",
+      "order": 17,
+      "text": ").... ٍقال تعالى: (كَأَنّ فِي أُذُنَياهِ وَقارًا فَبَشرا هُ بِعَذَاب",
+      "type": "mcq",
+      "options": [
+        "ٍوَاقِع",
+        "ٍأَلِيم",
+        "ِالسّعِير",
+        "ٌعَظِيم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 18,
+      "id": "q_018",
+      "order": 18,
+      "text": ")ٍقال تعالى: (وَأَنازَلانَا مِنَ السّمَاءِ مَاءً ...... فِيهَا مِنا كُلِِ زَوا جٍ كَرِيم",
+      "type": "mcq",
+      "options": [
+        "فَأَنابَتانَا",
+        "فَجَعَلانَا",
+        "فَأَنازَلانَا",
+        "فَأَخارَجانَا"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 19,
+      "id": "q_019",
+      "order": 19,
+      "text": "... قال تعالى: (يَا بُنَيّ أَقِمِ الصّلاَةَ وَأامُرا بِالامَعارُوفِ) الآية التي بعدها بدأت بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "َوَاقاصِدا فِي مَشايِك",
+        "ُيَا بُنَيّ إِنّهَا إِنا تَك",
+        "َوَالَ تُصَعرا خَدّك",
+        "وَإِنا جَاهَدَاكَ عَلى"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 20,
+      "id": "q_020",
+      "order": 20,
+      "text": ")......َقال تعالى: (لَقَدا حَقّ الاقَوا لُ عَلَى أَكاثَرِهِما فَهُما ال",
+      "type": "mcq",
+      "options": [
+        "َيَرا جِعُون",
+        "َيُؤامِنُون",
+        "َيَسّمّعُون",
+        "َيَناطِقُون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 21,
+      "id": "q_021",
+      "order": 21,
+      "text": "... )َقال تعالى: (وَهُما بِالآا َخِرَةِ هُما يُوقِنُونَ) معنى (يُوقِنُون",
+      "type": "mcq",
+      "options": [
+        "يوعظون",
+        "يعلمون",
+        "يؤمنون",
+        "يحسنون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 22,
+      "id": "q_022",
+      "order": 22,
+      "text": ".المشركون بفطرتهم ...... بأن الله خالق السماوات والأرض",
+      "type": "mcq",
+      "options": [
+        "منكرون",
+        "جاحدون",
+        "مكذبون",
+        "معترفون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 23,
+      "id": "q_023",
+      "order": 23,
+      "text": ".وصف الله تعالى في سورة لقمان ...... بالظلم العظيم",
+      "type": "mcq",
+      "options": [
+        "الشرك",
+        "الطغيان",
+        "الجحود",
+        "الكفر"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 24,
+      "id": "q_024",
+      "order": 24,
+      "text": "... أهم مصادر الهداية في العصر الحديث",
+      "type": "mcq",
+      "options": [
+        "التكنولوجيا",
+        "العلماء",
+        "القرآن",
+        "التاريخ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 25,
+      "id": "q_025",
+      "order": 25,
+      "text": "... من تناقض المشركين عبادتهم مع الله آلهة يعترفون أنها",
+      "type": "mcq",
+      "options": [
+        "خالقة",
+        "مخلوقة",
+        "قادرة",
+        "رازقه"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 26,
+      "id": "q_026",
+      "order": 26,
+      "text": "... أقسام الوقف االختياري",
+      "type": "mcq",
+      "options": [
+        "اثنان",
+        "ثلاثة",
+        "أربعة",
+        "خمسة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 27,
+      "id": "q_027",
+      "order": 27,
+      "text": "... قال تعالى: (وَقِيلَ مَنا رَاقٍ) موضع السكت في الآية على حرف",
+      "type": "mcq",
+      "options": [
+        "النون",
+        "الألف",
+        "القاف",
+        "الراء"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 28,
+      "id": "q_028",
+      "order": 28,
+      "text": ")...... قال تعالى: (وَمَا أَنازَلَ الرّحامَنُ مِنا شَياءٍ إِنا أَناتُما إِالّ",
+      "type": "mcq",
+      "options": [
+        "َمُباطِلُون",
+        "ٍفِي ضَلاَلٍ مُبِين",
+        "َمُفاتَرُون",
+        "َتَكاذِبُون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 29,
+      "id": "q_029",
+      "order": 29,
+      "text": ")......ٍقال تعالى: (نُمَتِِعُهُما قَلِيلاً ثُمّ نَضاطَرُّرهُما إِلَى عَذَاب",
+      "type": "mcq",
+      "options": [
+        "ٌمُهِين",
+        "ٍغَلِيظ",
+        "ٌأَلِيم",
+        "ٌعَظِيم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 30,
+      "id": "q_030",
+      "order": 30,
+      "text": ")قال تعالى: (سُباحَانَ الّذِي خَلَقَ ...... كُلّهَا مِمّا تُنابِتُ الأا َرا ضُ وَمِنا أَنافُسِهِما",
+      "type": "mcq",
+      "options": [
+        "َالأا َزا وَاج",
+        "ِالسّمَاوَات",
+        "َالأا َسامَاء",
+        "ِالأا َرا ض"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 31,
+      "id": "q_031",
+      "order": 31,
+      "text": ".التمسك بـ ...... هو السبيل إلى النجاة في الدنيا والآخرة",
+      "type": "mcq",
+      "options": [
+        "النصح والتوجيه",
+        "العادات والتقاليد",
+        "العروة الوثقى",
+        "الوعظ والإرشاد"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 32,
+      "id": "q_032",
+      "order": 32,
+      "text": "... قال تعالى: (لِتُناذِرَ قَوا مًا مَا أُناذِرَ آَبَاؤُهُما فَهُما غَافِلُونَ) المعنيون بالخطاب في الآية هم",
+      "type": "mcq",
+      "options": [
+        "النصارى",
+        "اليهود",
+        "أهل الكتاب",
+        "العرب"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 33,
+      "id": "q_033",
+      "order": 33,
+      "text": ".إحاطة المخاطر بالإنسان في البحر تجعله يرجع إلى ...... السليمة",
+      "type": "mcq",
+      "options": [
+        "الطمأنينة",
+        "الفطرة",
+        "السماحة",
+        "الأهواء"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 34,
+      "id": "q_034",
+      "order": 34,
+      "text": "... قال تعالى: (قَالَ يَا لَياتَ قَوا مِي يَعالَمُونَ) تدل الآية على أنّ من صفات المؤمن",
+      "type": "mcq",
+      "options": [
+        "حب الخير لٔالخرين",
+        "التفاخر على الآخرين",
+        "احتقار الآخرين",
+        "التعالي على الآخرين"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 35,
+      "id": "q_035",
+      "order": 35,
+      "text": ".تعاقب الليل والنهار دليل على ...... الله تعالى",
+      "type": "mcq",
+      "options": [
+        "عفو",
+        "قدرة",
+        "تنزيه",
+        "مغفرة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 36,
+      "id": "q_036",
+      "order": 36,
+      "text": "... الوقف في مكانه المناسب يساعد على",
+      "type": "mcq",
+      "options": [
+        "حسن الصوت",
+        "جمال الصوت",
+        "فهم الآية",
+        "كمال المد"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 37,
+      "id": "q_037",
+      "order": 37,
+      "text": ".ورد السكت في القرآن الكريم في ...... مواضع",
+      "type": "mcq",
+      "options": [
+        "ثلاثة",
+        "أربعة",
+        "خمسة",
+        "ستة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 38,
+      "id": "q_038",
+      "order": 38,
+      "text": ")َقال تعالى: (وَإِذَا غَشِيَهُما مَوا جٌ ...... دَعَوُا ဃّ َ مُخالِصِينَ لَهُ الدِِين",
+      "type": "mcq",
+      "options": [
+        "ِكَالظُّرلَل",
+        "ٌمِنا فَوا قِهِ سَحَاب",
+        "ٌمِنا فَوا قِهِ مَوا ج",
+        "ِكَالاجِبَال"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 39,
+      "id": "q_039",
+      "order": 39,
+      "text": ")......قال تعالى: (وَمَا عَلّمانَاهُ الشِِعارَ وَمَا يَنابَغِي لَهُ إِنا هُوَ إِالّ",
+      "type": "mcq",
+      "options": [
+        "َذِكارٌ لِلاعَالَمِين",
+        "ٌنَذِيرٌ مُبِين",
+        "ٌذِكارٌ وَقُرا آَنٌ مُبِين",
+        "وَحايٌ يُوحَى"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 40,
+      "id": "q_040",
+      "order": 40,
+      "text": "... الآية التي خُتِمَت بقوله تعالى: (وَأَنّ ဃّ َ الَ يُضِيعُ أَجارَ الامُؤامِنِينَ) بدأت بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "الّذِينَ اساتَجَابُوا",
+        "ُفَرِحِينَ بِمَا آَتَاهُم",
+        "ِيَساتَباشِرُونَ بِنِعامَةٍ مِنَ ဃّ",
+        "وَالَ تَحاسَبَنّ الّذِينَ قُتِلُوا"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 41,
+      "id": "q_041",
+      "order": 41,
+      "text": ".معرفة ماذا سيكسب الإنسان غداً أحد الأمور ...... التي أختص الله بعلمه",
+      "type": "mcq",
+      "options": [
+        "الغيبية",
+        "النظرية",
+        "العلمية",
+        "الكونية"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 42,
+      "id": "q_042",
+      "order": 42,
+      "text": ".أبدل الله تعالى الشهداء حياة ...... هذه الحياة الدنيا",
+      "type": "mcq",
+      "options": [
+        "أفضل من",
+        "أقل من",
+        "أدنى من",
+        "مساوية لـ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 43,
+      "id": "q_043",
+      "order": 43,
+      "text": "... جميع الناس عند النفخة الثانية",
+      "type": "mcq",
+      "options": [
+        "يموتون",
+        "يبعثون",
+        "يتشاجرون",
+        "يتسابقون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 44,
+      "id": "q_044",
+      "order": 44,
+      "text": "... من الأنعام التي فيها منافع ومشارب لٕالنسان",
+      "type": "mcq",
+      "options": [
+        "النمور",
+        "البغال",
+        "الغنم",
+        "الحمير"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 45,
+      "id": "q_045",
+      "order": 45,
+      "text": "... حرفا (الميم والباء) يخرجان من",
+      "type": "mcq",
+      "options": [
+        "الحلق",
+        "الشفتين",
+        "اللسان",
+        "الخيشوم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 46,
+      "id": "q_046",
+      "order": 46,
+      "text": ".الحلق مخرج لـ ...... أحرف",
+      "type": "mcq",
+      "options": [
+        "ثلاثة",
+        "أربعة",
+        "خمسة",
+        "ستة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    }
+  ],
+  "P.25": [
+    {
+      "questionNumber": 1,
+      "id": "q_001",
+      "order": 1,
+      "text": "ورد في سورة لقمان ذكر الرجل الصالح الذي آتاه الله الحكمة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 2,
+      "id": "q_002",
+      "order": 2,
+      "text": "قال تعالى: (هَذَا خَلْقُ ဃَّل ِ فَ΄َرُونِي مَاذَا خَلَقَ الَّلذِينَ مِنْ دُونِهِ) السؤال في الآية يدل على السخرية بالمشركين وآلهتهم",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 3,
+      "id": "q_003",
+      "order": 3,
+      "text": "خκَّل الله ذكر الأب في سورة لقمان لفضله",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 4,
+      "id": "q_004",
+      "order": 4,
+      "text": "قال تعالى: (·ِنَّل ဃَّل َ عَزِيزٌ حَكِيمٌ) معنى (حَكِيمٌ) أي أن الله هو الغني عما سواه",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 5,
+      "id": "q_005",
+      "order": 5,
+      "text": "الراء الساكنة بعد همزة الوصل حكمها الترقيق",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 6,
+      "id": "q_006",
+      "order": 6,
+      "text": "قال تعالى: (فَΈِنَّل مَصِيرَكُمْ ·ِلَى النَّلارِ) حكم الراء في كلمة (النار) عند الوصل الترقيق",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 7,
+      "id": "q_007",
+      "order": 7,
+      "text": "في آخر سورة لقمان ختم الله ما اختκ بعلمه بعلم البحار",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 8,
+      "id": "q_008",
+      "order": 8,
+      "text": "الشهداء في سبيل الله خلَّلدهم الله في الجنة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 9,
+      "id": "q_009",
+      "order": 9,
+      "text": ".)( ) قال تعالى: (لَقَدْ حَقَّل الْقَوْلُ عَلَى أَكْثَرِهِمْ) المقصود بـ (الْقَوْلُ) في الآية (النَّلعيم",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 10,
+      "id": "q_010",
+      "order": 10,
+      "text": "استجاب أهل القرية لدعوة حبيب النجار",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 11,
+      "id": "q_011",
+      "order": 11,
+      "text": "الوقف في غير موضعه قد يغير معنى الآية",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 12,
+      "id": "q_012",
+      "order": 12,
+      "text": "الشمس والقمر يجريان في نظام دقيق وضعه الله",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 13,
+      "id": "q_013",
+      "order": 13,
+      "text": "ي΄تي يوم القيامة فج΄ة فال يستطيع أحد الرجوع ·لى أهله",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 14,
+      "id": "q_014",
+      "order": 14,
+      "text": "يت΄ثر بالقرآن أصحاب القلوب الميتة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 15,
+      "id": "q_015",
+      "order": 15,
+      "text": ".)( ) أول مراحل خلق الإنسان هي (النطفة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 16,
+      "id": "q_016",
+      "order": 16,
+      "text": "مخارج الحروف هي: الأماكن التي تنش΄ منها الحروف",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 17,
+      "id": "q_017",
+      "order": 17,
+      "text": ")قال تعالى: (لِيُضِلَّل عَنْ سَبِيلِ ဃَّل ِ بِغَيْرِ ...... وَيَتَّلخِذَهَا هُزُوًا",
+      "type": "mcq",
+      "options": [
+        "ٍعِلْم",
+        "ٍحِسَاب",
+        "حَقَّل",
+        "ِِالْحَق"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 18,
+      "id": "q_018",
+      "order": 18,
+      "text": ")...... قال تعالى: (وَϻَ تَمْشِ فِي الأَْرْضِ مَرَحًا ·ِنَّل ဃَّل َ ϻَ يُحِبُّب",
+      "type": "mcq",
+      "options": [
+        "مَنْ كَانَ مُخْتَاϻً فَخُورًا",
+        "مَنْ كَانَ خَوَّل انًا أَثِيمًا",
+        "ٍكُلَّل مُخْتَالٍ فَخُور",
+        "ٍكُلَّل خَوَّل انٍ كَفُور"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 19,
+      "id": "q_019",
+      "order": 19,
+      "text": "... قال تعالى: (أَلَمْ تَرَوْا أَنَّل ဃَّل َ سَخَّلرَ لَكُمْ مَا فِي السَّلمَاوَاتِ وَمَا فِي الأَْرْضِ) خُتِمت الآية بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "ِيَدْعُوهُمْ ·ِلَى عَذَابِ السَّلعِير",
+        "ٍوَϻَ كِتَابٍ مُنِير",
+        "ِوَ·ِلَى ဃَّل ِ عَاقِبَةُ الأُْمُور",
+        "ِ·ِنَّل ဃَّل َ عَلِيمٌ بِذَاتِ الصُّبدُور"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 20,
+      "id": "q_020",
+      "order": 20,
+      "text": "... قال تعالى: (ذَلِكَ بِ΄َنَّل ဃَّل َ هُوَ الْحَقُّب) الآية التي جاءت بعد هذه الآية بدأت بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "َأَلَمْ تَرَ أَنَّل الْفُلْك",
+        "ُأَلَمْ تَرَ أَنَّل ဃَّل َ يُولِج",
+        "ٌوَ·ِذَا غَشِيَهُمْ مَوْج",
+        "يَا أَيُّبهَا النَّلاسُ اتَّلقُوا"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 21,
+      "id": "q_021",
+      "order": 21,
+      "text": "... قال تعالى: (وَمِنَ النَّلاسِ مَنْ يَشْتَرِي لَهْوَ الْحَدِيثِ) نزلت هذه الآية في",
+      "type": "mcq",
+      "options": [
+        "أبي بن خلف",
+        "النضر بن الحارث",
+        "الوليد بن عقبة",
+        "الوليد بن المغيرة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 22,
+      "id": "q_022",
+      "order": 22,
+      "text": "... أوصى لقمان ابنه بـ",
+      "type": "mcq",
+      "options": [
+        "·قامة الصالة",
+        "·يتاء الزكاة",
+        "بذل الصدقة",
+        "اϻحسان للجار"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 23,
+      "id": "q_023",
+      "order": 23,
+      "text": ".مهما تمتع الكفار في الدنيا فΈن ذلك ...... بالنسبة لٓالخرة",
+      "type": "mcq",
+      "options": [
+        "مثير",
+        "عميق",
+        "قليل",
+        "غزير"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 24,
+      "id": "q_024",
+      "order": 24,
+      "text": ".قال تعالى: (وَلَΌِنْ سَ΄َلْتَهُمْ مَنْ خَلَقَ السَّلمَاوَاتِ وَالأَْرْضَ لَيَقُولُنَّل ဃَّل ُ) هذه الآية تبين ...... شرك المشركين",
+      "type": "mcq",
+      "options": [
+        "صحة",
+        "بطالن",
+        "نفع",
+        "قبول"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 25,
+      "id": "q_025",
+      "order": 25,
+      "text": ".سخر الله البحر لتجري فيه السفن بقدرته فلوϻ ...... التي أودعها الله في الماء لما جرت فيه",
+      "type": "mcq",
+      "options": [
+        "القوة",
+        "الضعف",
+        "الصفاء",
+        "الضوء"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 26,
+      "id": "q_026",
+      "order": 26,
+      "text": "... الراء الساكنة وما قبلها ضم حكمها",
+      "type": "mcq",
+      "options": [
+        "التفخيم",
+        "الترقيق",
+        "التنحيف",
+        "الإقالب"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 27,
+      "id": "q_027",
+      "order": 27,
+      "text": "... (مَا أَنَا بِمُصْرِخِكُمْ) حكم الراء في الآية",
+      "type": "mcq",
+      "options": [
+        "التسمين",
+        "التفخيم",
+        "الترقيق",
+        "الإدغام"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 28,
+      "id": "q_028",
+      "order": 28,
+      "text": ")ِقال تعالى: (·ِنَّل ဃَّل َ عِنْدَهُ عِلْمُ السَّلاعَةِ وَيُنَزِِلُ ...... الأَْرْحَام",
+      "type": "mcq",
+      "options": [
+        "ًمِنَ السَّلمَاءِ مَاء",
+        "ٍمِنَ السَّلمَاءِ مِنْ جِبَال",
+        "لَكُمْ مِنَ السَّلمَاءِ رِزْقًا",
+        "الْغَيْثَ وَيَعْلَمُ مَا فِي"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 29,
+      "id": "q_029",
+      "order": 29,
+      "text": ")ِقال تعالى: (·ِنَّلمَا تُنْذِرُ مَنِ اتَّلبَعَ ...... وَخَشِيَ الرَّلحْمَنَ بِالْغَيْب",
+      "type": "mcq",
+      "options": [
+        "ِرِضْوَانِ ဃَّل",
+        "َالذِِكْر",
+        "ُهَوَاه",
+        "الْهُدَى"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 30,
+      "id": "q_030",
+      "order": 30,
+      "text": "... قال تعالى: (وَمِنْ أَنْفُسِهِمْ وَمِمَّلا ϻَ يَعْلَمُونَ) بدأت هذه الآية بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "َسُبْحَانَ الَّلذِي خَلَق",
+        "ُوَآَيَةٌ لَهُمُ الأَْرْض",
+        "ُوَآَيَةٌ لَهُمُ اللَّليْل",
+        "وَآَيَةٌ لَهُمْ أَنَّلا حَمَلْنَا"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 31,
+      "id": "q_031",
+      "order": 31,
+      "text": ".الشهداء في سبيل الله ...... عند ربهم يرزقون",
+      "type": "mcq",
+      "options": [
+        "نائمون",
+        "أحياء",
+        "أموات",
+        "غافلون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 32,
+      "id": "q_032",
+      "order": 32,
+      "text": "... )َقال تعالى: (فَهِيَ ·ِلَى الأَْذْقَانِ فَهُمْ مُقْمَحُونَ) معنى (مُقْمَحُون",
+      "type": "mcq",
+      "options": [
+        "1رافعو رؤوسهم ϻ يستطيعون",
+        "خيار 2",
+        "خيار 3",
+        "خيار 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 33,
+      "id": "q_033",
+      "order": 33,
+      "text": "... أرسل الله ٔالهل القرية رسالً فعززهم بـ",
+      "type": "mcq",
+      "options": [
+        "خامس",
+        "رابع",
+        "ثالث",
+        "سادس"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 34,
+      "id": "q_034",
+      "order": 34,
+      "text": ".مهمة الدعاة ...... من يدعونهم ·لى دين الله",
+      "type": "mcq",
+      "options": [
+        "معاقبة",
+        "·جبار",
+        "·كراه",
+        "تبليغ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 35,
+      "id": "q_035",
+      "order": 35,
+      "text": "... )ِقال تعالى: (وَآَيَةٌ لَهُمْ أَنَّلا حَمَلْنَا ذُرِِيَّلتَهُمْ فِي الْفُلْكِ الْمَشْحُونِ) المقصود بـ (الْفُلْك",
+      "type": "mcq",
+      "options": [
+        "السفن",
+        "الجبال",
+        "السحب",
+        "الرياح"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 36,
+      "id": "q_036",
+      "order": 36,
+      "text": "... )ٌقال تعالى: (سُبْحَانَهُ أَنْ يَكُونَ لَهُ وَلَدٌ لَهُ مَا فِي السَّلمَاوَاتِ) حكم الوقف على لفظ (وَلَد",
+      "type": "mcq",
+      "options": [
+        "ϻزم",
+        "تعانق",
+        "تام",
+        "كافي"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 37,
+      "id": "q_037",
+      "order": 37,
+      "text": "... قال تعالى: (كَالَّل بَلْ رَانَ) ورد السكت في كلمة (بَلْ رَانَ) على حرف",
+      "type": "mcq",
+      "options": [
+        "الالم",
+        "النون",
+        "الراء",
+        "الألف"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 38,
+      "id": "q_038",
+      "order": 38,
+      "text": ")ُقال تعالى: (وَ·ِذَا قِيلَ لَهُمْ أَنْفِقُوا...... قَالَ الَّلذِينَ كَفَرُوا لِلَّلذِينَ آمَنُوا أَنُطْعِمُ مَنْ لَوْ يَشَاءُ ဃَّل",
+      "type": "mcq",
+      "options": [
+        "ْمِمَّلا رَزَقْنَاكُم",
+        "ِفِي سَبِيلِ ဃَّل",
+        "ُمِمَّلا رَزَقَكُمُ ဃَّل",
+        "ْمِنْ طَيِِبَاتِ مَا كَسَبْتُم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 39,
+      "id": "q_039",
+      "order": 39,
+      "text": ")َقال تعالى: (سَالَمٌ ...... مِنْ رَبٍِ رَحِيمٍ (ــ) وَامْتَازُوا الْيَوْمَ أَيُّبهَا الْمُجْرِمُون",
+      "type": "mcq",
+      "options": [
+        "َعَلَى الْمُرْسَلِين",
+        "ْعَلَيْكُم",
+        "عَلَى مُوسَى",
+        "ً"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 40,
+      "id": "q_040",
+      "order": 40,
+      "text": "... قال تعالى: (وَذَلَّللْنَاهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ) الآية التي بعد هذه الآية خُتِمت بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "َلَعَلَّلهُمْ يُنْصَرُون",
+        "َوَمَشَارِبُ أَفَالَ يَشْكُرُون",
+        "َجُنْدٌ مُحْضَرُون",
+        "َمَا يُسِرُّبونَ وَمَا يُعْلِنُون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 41,
+      "id": "q_041",
+      "order": 41,
+      "text": "... تسمى النفخة الثانية في الصور بنفخة",
+      "type": "mcq",
+      "options": [
+        "الموت",
+        "البعث",
+        "الفناء",
+        "العذاب"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 42,
+      "id": "q_042",
+      "order": 42,
+      "text": "... ورد في سورة (يس) أن الله يختم على أفواه الكافرين فتشهد عليهم",
+      "type": "mcq",
+      "options": [
+        "أيديهم",
+        "ألسنتهم",
+        "أرجلهم",
+        "أبصارهم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 43,
+      "id": "q_043",
+      "order": 43,
+      "text": "... قال تعالى: (وَلَهُمْ فِيهَا مَنَافِعُ وَمَشَارِبُ) من الأنعام المقصودة في هذه الآية",
+      "type": "mcq",
+      "options": [
+        "الإبل",
+        "الحمير",
+        "البغال",
+        "النمور"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 44,
+      "id": "q_044",
+      "order": 44,
+      "text": "... قال تعالى: (قَالَ مَنْ يُحْيِي الْعِظَامَ وَهِيَ رَمِيمٌ) معنى (رَمِيمٌ) أي",
+      "type": "mcq",
+      "options": [
+        "قوية",
+        "متينة",
+        "بالية",
+        "سليمة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 45,
+      "id": "q_045",
+      "order": 45,
+      "text": "... الحروف التي تخرج من الشفتين هي",
+      "type": "mcq",
+      "options": [
+        "هـ، ع، ح",
+        "غ، خ، س",
+        "ق، ك، ض",
+        "ب، ف، م"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 46,
+      "id": "q_046",
+      "order": 46,
+      "text": ".ًطرف اللسان مخرج لـ ...... حرفا",
+      "type": "mcq",
+      "options": [
+        "أحد عشر",
+        "·ثني عشر",
+        "ثالثة عشر",
+        "أربعة عشر"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    }
+  ],
+  "P.55": [
+    {
+      "questionNumber": 1,
+      "id": "q_001",
+      "order": 1,
+      "text": "إقامة الصالة تكون بأدائها على الوجه الأكمل من خشوع واطمئنان",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 2,
+      "id": "q_002",
+      "order": 2,
+      "text": "الΪَّدعوة إلى الله تتطلب الأمر بالمعروف والنهي عن المنكر",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 3,
+      "id": "q_003",
+      "order": 3,
+      "text": "انتظام حركة الكون يشهΪ أن الله هو الحق",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 4,
+      "id": "q_004",
+      "order": 4,
+      "text": "قال تعالى: (إِنَّد ဃَّد َ عَزِيزٌ حَكِيمٌ) معنى (عَزِيزٌ) أي: المستحق للحمΪ والثناء",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 5,
+      "id": "q_005",
+      "order": 5,
+      "text": "تفخم الراء إذا كانت ساكنة بسبب الوقف وسبقها ياء ساكنة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 6,
+      "id": "q_006",
+      "order": 6,
+      "text": "قال تعالى: (تَعْرُجُ الْمَالَئِكَةُ) حكم الراء في الآية هو الترقيق",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 7,
+      "id": "q_007",
+      "order": 7,
+      "text": "يتحمل الآباء يوم القيامة جزءاً من ذنوب أبنائهم",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 8,
+      "id": "q_008",
+      "order": 8,
+      "text": "الشهΪاء ليسوا أمواتاً بل أحياء في الجنة يرزقون",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 9,
+      "id": "q_009",
+      "order": 9,
+      "text": "الكفار يستمرون على ضاللتهم فال ينفعهم النصح",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 10,
+      "id": "q_010",
+      "order": 10,
+      "text": "اكتفى حبيب النجار بإيمانه ولم يهتم بنصح قومه",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 11,
+      "id": "q_011",
+      "order": 11,
+      "text": ".ً( ) إذا توقف القارئ لسبب ثم استأنف القراءة عنΪ زوال السبب يسمى توقفه اضطراريا",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 12,
+      "id": "q_012",
+      "order": 12,
+      "text": "تعΪ كثرة المعاصي سبباً رئيساً لنزول البالء بالعباد",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 13,
+      "id": "q_013",
+      "order": 13,
+      "text": "يجود الكفار بإنفاق أموالهم على الفقراء لكي يقبلها الله منهم",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 14,
+      "id": "q_014",
+      "order": 14,
+      "text": "يختم الله على جوارح المجرمين يوم القيامة ويسمح ٔالفواههم أن تتكلم",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 15,
+      "id": "q_015",
+      "order": 15,
+      "text": "عجز الكفار عن معارضة القرآن الكريم فأشاعوا أن النبي ملسو هلٓاو هيلع الله ىلص شاعر",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 16,
+      "id": "q_016",
+      "order": 16,
+      "text": "حرفا (الضاد والالم) يخرجان من حافتي اللسان",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 17,
+      "id": "q_017",
+      "order": 17,
+      "text": ")ِقال تعالى: (إِنَّد الَّدذِينَ آمَنُوا ...... لَهُمْ جَنَّداتُ النَّدعِيم",
+      "type": "mcq",
+      "options": [
+        "وَهَاجَرُوا",
+        "ِوَعَمِلُوا الصَّدالِحَات",
+        "وَالَّدذِينَ هَادُوا",
+        "وَالَّدذِينَ هَاجَرُوا"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 18,
+      "id": "q_018",
+      "order": 18,
+      "text": "... الآية التي اشتملت على مظاهر التكبر التي حذر منها لقمان ابنه هي",
+      "type": "mcq",
+      "options": [
+        "َيَا بُنَيَّد أَقِمِ الصَّدالَة",
+        "َوَلَقَΪْ آَتَيْنَا لُقْمَان",
+        "ِوَϻَ تُصَعرْ خَΪَّدكَ لِلنَّداس",
+        "ُيَا بُنَيَّد إِنَّدهَا إِنْ تَك"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 19,
+      "id": "q_019",
+      "order": 19,
+      "text": ")ٍقال تعالى: (وَمِنَ النَّداسِ مَنْ ...... بِغَيْرِ عِلْمٍ وَϻَ هُΪًى وَϻَ كِتَابٍ مُنِير",
+      "type": "mcq",
+      "options": [
+        "ِِيُجَادِلُونَكَ فِي الْحَق",
+        "ِيُجَادِلُونَ فِي ဃَّد",
+        "ِيُجَادِلُ فِي ဃَّد",
+        "ْلِيُجَادِلُوكُم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 20,
+      "id": "q_020",
+      "order": 20,
+      "text": ")......َقال تعالى: (مَا خَلْقُكُمْ وَϻَ بَعْثُكُمْ إِϻَّد كَنَفْسٍ وَاحِΪَةٍ إِنَّد ဃَّد",
+      "type": "mcq",
+      "options": [
+        "ٍغَفُورٍ رَحِيم",
+        "ٌسَمِيعٌ بَصِير",
+        "ٌسَمِيعٌ عَلِيم",
+        "ٌلَقَوِيٌّي عَزِيز"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 21,
+      "id": "q_021",
+      "order": 21,
+      "text": "... قال تعالى: (وَمِنَ النَّداسِ مَنْ يَشْتَرِي لَهْوَ الْحَΪِيثِ لِيُضِلَّد عَنْ سَبِيلِ ဃَّد ِ) نزلت هذه الآية في",
+      "type": "mcq",
+      "options": [
+        "امية بن خلف",
+        "النضر بن الحارث",
+        "أبي جهل",
+        "أبي بن خلف"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 22,
+      "id": "q_022",
+      "order": 22,
+      "text": "... Ϊقال تعالى: (بِغَيْرِ عَمَΪٍ تَرَوْنَهَا) المراد بـ : العم",
+      "type": "mcq",
+      "options": [
+        "الΪعائم",
+        "النجوم",
+        "الشهب",
+        "الكواكب"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 23,
+      "id": "q_023",
+      "order": 23,
+      "text": "... الإصابة والسΪاد في القول والعمل هما معنى",
+      "type": "mcq",
+      "options": [
+        "الكرامة",
+        "المعجزة",
+        "الرسالة",
+        "الحكمة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 24,
+      "id": "q_024",
+      "order": 24,
+      "text": "... أهم مصادر الهΪاية للناس",
+      "type": "mcq",
+      "options": [
+        "التوراة",
+        "الإنجيل",
+        "الزبور",
+        "القرآن"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 25,
+      "id": "q_025",
+      "order": 25,
+      "text": ".المشركون ...... بفطرتهم بأن الله خالق السماوات والأرض",
+      "type": "mcq",
+      "options": [
+        "منكرون",
+        "جاحΪون",
+        "معترفون",
+        "مكذبون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 26,
+      "id": "q_026",
+      "order": 26,
+      "text": "... في قوله تعالى: (الْكَبِيرُ الْمُتَعَالِ) حكم الراء في الآية حال الوقف هو",
+      "type": "mcq",
+      "options": [
+        "الترقيق",
+        "التفخيم",
+        "اϻدغام",
+        "التضخيم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 27,
+      "id": "q_027",
+      "order": 27,
+      "text": "... مواضع تفخيم الراء",
+      "type": "mcq",
+      "options": [
+        "اثنان",
+        "ثالثة",
+        "أربعة",
+        "خمسة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 28,
+      "id": "q_028",
+      "order": 28,
+      "text": "... قال تعالى: (وَمَا يَجْحَΪُ بِآيَاتِنَا إِϻَّد كُلُّل خَتَّدارٍ كَفُورٍ) بΪأت هذه الآية بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "ْوَإِذَا غَشِيَهُم",
+        "َأَلَمْ تَرَوْا أَنَّد ဃَّد",
+        "ًنُمَتِِعُهُمْ قَلِيال",
+        "َذَلِكَ بِأَنَّد ဃَّد"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 29,
+      "id": "q_029",
+      "order": 29,
+      "text": ")......خُتِمتْ أواخر سورة لقمان بقوله تعالى: (يَا أَيُّلهَا",
+      "type": "mcq",
+      "options": [
+        "ِالإِْنْسَان",
+        "ُالنَّداس",
+        "َالرَّدسُول",
+        "النَّدبِيَّد"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 30,
+      "id": "q_030",
+      "order": 30,
+      "text": ")َقال تعالى: (وَاضْرِبْ لَهُمْ مَثَالً ...... إِذْ جَاءَهَا الْمُرْسَلُون",
+      "type": "mcq",
+      "options": [
+        "َلِبَنِي إِسْرَائِيل",
+        "ًقَرْيَةً كَانَتْ آَمِنَة",
+        "ِأَصْحَابَ الْقَرْيَة",
+        "ًكَلِمَةً طَيِِبَة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 31,
+      "id": "q_031",
+      "order": 31,
+      "text": "... قال تعالى: (قَالَ يَا لَيْتَ قَوْمِي يَعْلَمُونَ) تΪل الآية على",
+      "type": "mcq",
+      "options": [
+        "حب الخير لٓالخرين",
+        "احتقار الآخرين",
+        "التفاخر على الآخرين",
+        "التعالي على الآخرين"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 32,
+      "id": "q_032",
+      "order": 32,
+      "text": "... إحاطة المخاطر بالإنسان في البحر تجعله يرجع إلى",
+      "type": "mcq",
+      "options": [
+        "الهΪوء والراحة",
+        "الأهواء والآراء",
+        "الطمأنينة والسكينة",
+        "الفطرة السليمة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 33,
+      "id": "q_033",
+      "order": 33,
+      "text": ".علم الساعة من الأمور ...... التي ϻ يعلمها إϻ الله",
+      "type": "mcq",
+      "options": [
+        "الغيبية",
+        "الظاهرة",
+        "الأدبية",
+        "التجريبية"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 34,
+      "id": "q_034",
+      "order": 34,
+      "text": "... كان موقف أهل القرية من نصح حبيب النجار",
+      "type": "mcq",
+      "options": [
+        "التفاؤل به",
+        "قتله",
+        "اتباعه",
+        "اϻستجابة له"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 35,
+      "id": "q_035",
+      "order": 35,
+      "text": "... رد المرسلون على أصحاب القرية أن تشاؤمهم سببه",
+      "type": "mcq",
+      "options": [
+        "الكفر",
+        "الفقر",
+        "المرض",
+        "الفهم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 36,
+      "id": "q_036",
+      "order": 36,
+      "text": ".الوقف ...... يفسΪ المعنى بسببه فال يجوز تعمΪ الوقف فيه",
+      "type": "mcq",
+      "options": [
+        "التام",
+        "الممنوع",
+        "الحسن",
+        "الكافي"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 37,
+      "id": "q_037",
+      "order": 37,
+      "text": "... عΪد مواضع السكت على حرف (الألف) في القرآن الكريم",
+      "type": "mcq",
+      "options": [
+        "اثنان",
+        "ثالثة",
+        "أربعة",
+        "خمسة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 38,
+      "id": "q_038",
+      "order": 38,
+      "text": ")......َϻَقال تعالى: (ϻَ تُغْنِ عَنِِي شَفَاعَتُهُمْ شَيْئًا و",
+      "type": "mcq",
+      "options": [
+        "َيَهْتَΪُون",
+        "ِيُنْقِذُون",
+        "َيَعْقِلُون",
+        "َهُمْ يُنْصَرُون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 39,
+      "id": "q_039",
+      "order": 39,
+      "text": "... قال تعالى: (وَفَجَّدرْنَا فِيهَا مِنَ الْعُيُونِ) ابتΪأت هذه الآية بقولة تعالى",
+      "type": "mcq",
+      "options": [
+        "ٌوَإِنْ كُلٌّي لَمَّدا جَمِيع",
+        "ِلِيَأْكُلُوا مِنْ ثَمَرِه",
+        "ٍوَجَعَلْنَا فِيهَا جَنَّدات",
+        "ُوَآَيَةٌ لَهُمُ الأَْرْضُ الْمَيْتَة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 40,
+      "id": "q_040",
+      "order": 40,
+      "text": ")..... قال تعالى: (وَامْتَازُوا الْيَوْمَ أَيُّلهَا",
+      "type": "mcq",
+      "options": [
+        "1َُ",
+        "خيار 2",
+        "خيار 3",
+        "خيار 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 41,
+      "id": "q_041",
+      "order": 41,
+      "text": ".قال تعالى: (يَا حَسْرَةً عَلَى الْعِبَادِ) لفظ (حَسْرَةً) يΪل على ...... الذي ينتظر المكذبين",
+      "type": "mcq",
+      "options": [
+        "الحمل الثقيل",
+        "البطء في السير",
+        "المΪح والثناء",
+        "شΪة العذاب"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 42,
+      "id": "q_042",
+      "order": 42,
+      "text": "... قال تعالى: (فَإِذَا هُمْ جَمِيعٌ لَΪَيْنَا مُحْضَرُونَ) تتحΪث هذه الآية عن صيحة",
+      "type": "mcq",
+      "options": [
+        "الموت",
+        "البعث",
+        "العذاب",
+        "الهالك"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 43,
+      "id": "q_043",
+      "order": 43,
+      "text": "... قال تعالى: (وَلَقَΪْ أَضَلَّد مِنْكُمْ جِبِالاًّل ) المراد بالذي (أَضَلَّد) في الآية",
+      "type": "mcq",
+      "options": [
+        "1المال2",
+        "خيار 2",
+        "خيار 3",
+        "خيار 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 44,
+      "id": "q_044",
+      "order": 44,
+      "text": "... قال تعالى: (فَالَ يَحْزُنْكَ قَوْلُهُمْ إِنَّدا نَعْلَمُ) الخطاب في الآية موجه لـ",
+      "type": "mcq",
+      "options": [
+        "لقمان الحكيم",
+        "رسل أهل القرية",
+        "دمحم ملسو هلٓاو هيلع الله ىلص",
+        "حبيب النجار"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 45,
+      "id": "q_045",
+      "order": 45,
+      "text": ".الشفتان مخرج لـ ...... حروف",
+      "type": "mcq",
+      "options": [
+        "ثالثة",
+        "أربعة",
+        "خمسة",
+        "ستة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 46,
+      "id": "q_046",
+      "order": 46,
+      "text": "... حرفا (الشين والجيم) يخرجان من",
+      "type": "mcq",
+      "options": [
+        "الشفتين",
+        "اللسان",
+        "الحلق",
+        "الخيشوم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    }
+  ],
+  "P.54": [
+    {
+      "questionNumber": 1,
+      "id": "q_001",
+      "order": 1,
+      "text": "ثبَّبت الله الأرض بالبحار حتى ال تضطرب وتتحرك",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 2,
+      "id": "q_002",
+      "order": 2,
+      "text": "من الأمور التي نتعلمها من سورة لقمان أنه ال طاعة لمخلوق في معصية الخالق",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 3,
+      "id": "q_003",
+      "order": 3,
+      "text": "خَلْقُ وبعثُ الناس جميعاً في قدرة الله كخلق وبعث نفس واحدة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 4,
+      "id": "q_004",
+      "order": 4,
+      "text": "قال تعالى: (كُلٌّل يَجْرِٕا ي ·ِٕالَى أَجَلٍ مُسَمًّمى) أي: وقت معلوم وهو نهاية كل يوم",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 5,
+      "id": "q_005",
+      "order": 5,
+      "text": "تفخيم الراء: هو ·خراجها بصوت ضعيف",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 6,
+      "id": "q_006",
+      "order": 6,
+      "text": "قال تعالى: (وَلَقَدْ عَلِٕامْنَا الْمُسْتَ΄ْخِٕا رِٕا ينَ) حكم الراء في الآية هو الترقيق",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 7,
+      "id": "q_007",
+      "order": 7,
+      "text": "ي΄تي يوم القيامة والناس مستعدون له",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 8,
+      "id": "q_008",
+      "order": 8,
+      "text": "الشهداء في سبيل الله أحياء يرزقون وينعمون في الدنيا",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 9,
+      "id": "q_009",
+      "order": 9,
+      "text": "أرسل الله ·لى أهل القرية اثنين من الرسل وعززهما بثالث",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 10,
+      "id": "q_010",
+      "order": 10,
+      "text": "قال تعالى: (قَالَ يَا لَيْتَ قَوْمِٕاي يَعْلَمُونَ) تدل هذه الآية على مكانة الشهداء عند الله",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 11,
+      "id": "q_011",
+      "order": 11,
+      "text": "الوقف الكافي: هو أحد أقسام الوقف االضطراري",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 12,
+      "id": "q_012",
+      "order": 12,
+      "text": "معنى قوله تعالى: (فَلاَ صَرِٕا يخَ لَهُمْ) أي: ال منقذ لهم",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 13,
+      "id": "q_013",
+      "order": 13,
+      "text": "الكفار المستمرون على ضلالتهم ال ينفعهم النصح",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 14,
+      "id": "q_014",
+      "order": 14,
+      "text": "الكفار يت΄ثرون بالقرآن الكريم ويؤمنون به",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 15,
+      "id": "q_015",
+      "order": 15,
+      "text": "من يطل الله في عمره يتحول جسده ·لى قوة وشدة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 16,
+      "id": "q_016",
+      "order": 16,
+      "text": "يخرج حرفا (الضاد واللام) من اللسان",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 17,
+      "id": "q_017",
+      "order": 17,
+      "text": ")ٍقال تعالى: (وَمِٕانَ النَّباسِٕا مَنْ ...... لِٕايُضِٕا لَّب عَنْ سَبِٕايلِٕا ဃَّب ِٕا بِٕاغَيْرِٕا عِٕالْم",
+      "type": "mcq",
+      "options": [
+        "يَشْتَرِٕا ي لَهْوَ الْحَدِٕايثِٕا",
+        "يَتَّبخِٕا ذُ مِٕانْ دُونِٕا ဃَّب ِٕا أَنْدَادًا",
+        "ٍيَعْبُدُ ဃَّب َ عَلَى حَرْف",
+        "يُجَادِٕالُ فِٕاي ဃَّب ِٕا"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 18,
+      "id": "q_018",
+      "order": 18,
+      "text": ")َقال تعالى: (يَا بُنَيَّب ...... وَأْمُرْ بِٕاالْمَعْرُوفِٕا وَانْهَ عَنِٕا الْمُنْكَرِٕا وَاصْبِٕارْ عَلَى مَا أَصَابَك",
+      "type": "mcq",
+      "options": [
+        "الَ تُشْرِٕا كْ بِٕاا๡َّب ِٕا",
+        "َأَقِٕامِٕا الصَّبلاَة",
+        "ارْكَبْ مَعَنَا",
+        "ٍ·ِٕانْ تَكُ مِٕاثْقَالَ حَبَّبة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 19,
+      "id": "q_019",
+      "order": 19,
+      "text": ")..... ٍقال تعالى: (نُمَتِِٕاعُهُمْ قَلِٕايلاً ثُمَّب نَضْطَرُّرهُمْ ·ِٕالَى عَذَاب",
+      "type": "mcq",
+      "options": [
+        "النَّبارِٕا",
+        "السَّبعِٕايرِٕا",
+        "ٌعَظِٕايم",
+        "ٍغَلِٕايظ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 20,
+      "id": "q_020",
+      "order": 20,
+      "text": ")......َقال تعالى: (مَا خَلْقُكُمْ وَالَ بَعْثُكُمْ ·ِٕاالَّب كَنَفْسٍ وَاحِٕا دَةٍ ·ِٕانَّب ဃَّب",
+      "type": "mcq",
+      "options": [
+        "ٌسَمِٕايعٌ عَلِٕايم",
+        "ٌعَزِٕا يزٌ حَكِٕايم",
+        "ٌسَمِٕايعٌ بَصِٕا ير",
+        "ٌلَطِٕايفٌ خَبِٕاير"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 21,
+      "id": "q_021",
+      "order": 21,
+      "text": "... قال تعالى: (وَنَمِٕايرُ أَهْلَنَا) حكم الراء في الآية هو",
+      "type": "mcq",
+      "options": [
+        "الإقلاب",
+        "الترقيق",
+        "التفخيم",
+        "التنحيف"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 22,
+      "id": "q_022",
+      "order": 22,
+      "text": "... مواضع ترقيق الراء",
+      "type": "mcq",
+      "options": [
+        "ثلاثة",
+        "أربعة",
+        "خمسة",
+        "ستة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 23,
+      "id": "q_023",
+      "order": 23,
+      "text": ".الحروف المقطعة التي ابتدأت بها سورة لقمان تشير ·لى ...... القرآن الكريم",
+      "type": "mcq",
+      "options": [
+        "·عراب",
+        "قصص",
+        "تفسير",
+        "·عجاز"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 24,
+      "id": "q_024",
+      "order": 24,
+      "text": "... بدأ لقمان وصاياه البنه بتحذيره من",
+      "type": "mcq",
+      "options": [
+        "اللهو",
+        "الشيطان",
+        "الشرك",
+        "الدنيا"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 25,
+      "id": "q_025",
+      "order": 25,
+      "text": "... من نعم الله الظاهرة على الإنسان",
+      "type": "mcq",
+      "options": [
+        "الطعام",
+        "الصبر",
+        "الهداية",
+        "الإيمان"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 26,
+      "id": "q_026",
+      "order": 26,
+      "text": ".يعترف المشركون ب΄ن الله خالقهم ويتناقضون بـ ...... الله",
+      "type": "mcq",
+      "options": [
+        "استجابتهم لـ",
+        "مراقبتهم لـ",
+        "خوفهم من",
+        "شركهم بـ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 27,
+      "id": "q_027",
+      "order": 27,
+      "text": ".تعاقب الليل والنهار دليل على ...... الله تعالى",
+      "type": "mcq",
+      "options": [
+        "عفو",
+        "قدرة",
+        "تنزيه",
+        "مغفرة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 28,
+      "id": "q_028",
+      "order": 28,
+      "text": "... قال تعالى: (يَا أَيُّرهَا النَّباسُ اتَّبقُوا رَبَّبكُمْ وَاخْشَوْا يَوْمًا...) ابتدأت الآية التي بعدها بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "ٌوَ·ِٕاذَا غَشِٕايَهُمْ مَوْج",
+        "·ِٕانَّب ဃَّب َ عِٕانْدَهُ عِٕالْمُ السَّباعَةِٕا",
+        "أَلَمْ تَرَ أَنَّب الْفُلْكَ تَجْرِٕا ي",
+        "ُأَلَمْ تَرَ أَنَّب ဃَّب َ يُولِٕاج"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 29,
+      "id": "q_029",
+      "order": 29,
+      "text": ")قال تعالى: (وَالَ تَحْسَبَنَّب الَّبذِٕاينَ ...... فِٕاي سَبِٕايلِٕا ဃَّب ِٕا أَمْوَاتًا",
+      "type": "mcq",
+      "options": [
+        "َيَفْرَحُون",
+        "أَنْفَقُوا",
+        "أُحْصِٕا رُوا",
+        "قُتِٕالُوا"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 30,
+      "id": "q_030",
+      "order": 30,
+      "text": ")َقال تعالى: (وَاضْرِٕا بْ لَهُمْ مَثَلاً ...... ·ِٕاذْ جَاءَهَا الْمُرْسَلُون",
+      "type": "mcq",
+      "options": [
+        "ًقَرْيَةً كَانَتْ آَمِٕانَة",
+        "َلِٕابَنِٕاي ·ِٕاسْرَا΋ِٕايل",
+        "أَصْحَابَ الْقَرْيَةِٕا",
+        "ًكَلِٕامَةً طَيِِٕابَة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 31,
+      "id": "q_031",
+      "order": 31,
+      "text": "... حذَّبرنا الله في آخر سورة لقمان من",
+      "type": "mcq",
+      "options": [
+        "السلطان",
+        "الدنيا",
+        "الجاه",
+        "الأصدقاء"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 32,
+      "id": "q_032",
+      "order": 32,
+      "text": "... من القضايا الر΋يسة التي ركَّبزت عليها سورة (يس) عاقبة",
+      "type": "mcq",
+      "options": [
+        "الغيبة والنميمة",
+        "طاعة الوالدين",
+        "صلة الرحم",
+        "التكذيب بالوحي"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 33,
+      "id": "q_033",
+      "order": 33,
+      "text": "... كان موقف أهل القرية من دعوة الرسل",
+      "type": "mcq",
+      "options": [
+        "االستجابة",
+        "الإيمان",
+        "التكذيب",
+        "الترحيب"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 34,
+      "id": "q_034",
+      "order": 34,
+      "text": "... نتعلم من قصة حبيب النجار",
+      "type": "mcq",
+      "options": [
+        "التضحية في سبيل الله",
+        "حب الخير للنفس",
+        "احتقار الآخرين",
+        "ترك الناس وش΄نهم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 35,
+      "id": "q_035",
+      "order": 35,
+      "text": "... قال تعالى: (وَ·ِٕانْ كُلٌّل لَمَّبا جَمِٕايعٌ لَدَيْنَا مُحْضَرُونَ) معنى محضرون",
+      "type": "mcq",
+      "options": [
+        "واقفون",
+        "متباعدون",
+        "مجموعون",
+        "معدودون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 36,
+      "id": "q_036",
+      "order": 36,
+      "text": "... أحد الحروف التالية من أحكام الترقيق",
+      "type": "mcq",
+      "options": [
+        "القاف",
+        "الراء",
+        "الصاد",
+        "الخاء"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 37,
+      "id": "q_037",
+      "order": 37,
+      "text": "... في كلمة (مِٕارْيَةٍ) تنطق الراء مرققة ٔالنها",
+      "type": "mcq",
+      "options": [
+        "بعد همزة الوصل",
+        "مكسورة بعد ضم",
+        "مكسورة بعد كسر",
+        "ساكنة بعد كسر أصلي"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 38,
+      "id": "q_038",
+      "order": 38,
+      "text": "... قال تعالى: (وَاضْرِٕا بْ لَهُمْ مَثَلاً أَصْحَابَ الْقَرْيَةِٕا) الآية التي بعدها بدأت بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "·ِٕاذْ أَرْسَلْنَا",
+        "ْقَالُوا مَا أَنْتُم",
+        "وَمَا عَلَيْنَا",
+        "ْقَالُوا طَا΋ِٕارُكُم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 39,
+      "id": "q_039",
+      "order": 39,
+      "text": ")َقال تعالى: (قِٕايلَ ...... الْجَنَّبةَ قَالَ يَا لَيْتَ قَوْمِٕاي يَعْلَمُون",
+      "type": "mcq",
+      "options": [
+        "لَهُمُ ادْخُلُوا",
+        "اسْكُنُوا",
+        "لَهَا ادْخُلِٕاي",
+        "ادْخُلِٕا"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 40,
+      "id": "q_040",
+      "order": 40,
+      "text": "... قال تعالى: (وَمَا عَلَّبمْنَاهُ الشِِٕاعْرَ) خُتِٕامَت هذه الآية بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "َأَفَلاَ يَشْكُرُون",
+        "ٌوَقُرْآَنٌ مُبِٕاين",
+        "َلَهَا مَالِٕاكُون",
+        "َالْقَوْلُ عَلَى الْكَافِٕارِٕا ين"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 41,
+      "id": "q_041",
+      "order": 41,
+      "text": "... قال تعالى: (فَΈِٕاذَا هُمْ جَمِٕايعٌ لَدَيْنَا مُحْضَرُونَ) تتحدث هذه الآية عن صيحة",
+      "type": "mcq",
+      "options": [
+        "العذاب",
+        "الهلاك",
+        "البعث",
+        "الموت"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 42,
+      "id": "q_042",
+      "order": 42,
+      "text": "... قال تعالى: (وَمَنْ نُعَمِِٕارْهُ نُنَكِِٕاسْهُ فِٕاي الْخَلْقِٕا) معنى (نُنَكِِٕاسْهُ) أي",
+      "type": "mcq",
+      "options": [
+        "نضعف بدنه",
+        "نبسط في بدنه",
+        "نزيد في عقله",
+        "نقوي بصره"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 43,
+      "id": "q_043",
+      "order": 43,
+      "text": "... الكفار جندوا أنفسهم لحماية آلهتهم وحراستها بسبب",
+      "type": "mcq",
+      "options": [
+        "قدرتها",
+        "قوتها",
+        "حركتها",
+        "عجزها"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 44,
+      "id": "q_044",
+      "order": 44,
+      "text": "... يستبشر الشهداء بمن بعدهم من",
+      "type": "mcq",
+      "options": [
+        "المرسلين",
+        "الأنبياء",
+        "المؤمنين المجاهدين",
+        "المرشدين الناصحين"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 45,
+      "id": "q_045",
+      "order": 45,
+      "text": ".يخرج من الحلق ...... أحرف",
+      "type": "mcq",
+      "options": [
+        "ثلاثة",
+        "أربعة",
+        "خمسة",
+        "ستة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 46,
+      "id": "q_046",
+      "order": 46,
+      "text": ".حرفا (القاف والكاف) يخرجان من ...... اللسان",
+      "type": "mcq",
+      "options": [
+        "أقصى",
+        "وسط",
+        "طرف",
+        "حافتي"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    }
+  ],
+  "P.52": [
+    {
+      "questionNumber": 1,
+      "id": "q_001",
+      "order": 1,
+      "text": "المهتدون بالقرآن هم المحسنون الظافرون برحمة الله يوم القيامة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 2,
+      "id": "q_002",
+      "order": 2,
+      "text": "اختص الله أنبياءه ورسله بالحكمة دون بقية الناس",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 3,
+      "id": "q_003",
+      "order": 3,
+      "text": "العروة الوثقى هي سبيل النجاة في الدنيا والآخرة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 4,
+      "id": "q_004",
+      "order": 4,
+      "text": "يلجأ الكفار إلى الله حال الرخاء ويجحدونه وقت الشدة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 5,
+      "id": "q_005",
+      "order": 5,
+      "text": "قال تعالى: (وَالْخَيْلَ وَالْبِغَالَ وَالْحَمِيرَ) حكم الراء في الآية عند الوقف هو التفخيم",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 6,
+      "id": "q_006",
+      "order": 6,
+      "text": "الراء الساكنة بعد همزة الوصل حكمها الترقيق",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 7,
+      "id": "q_007",
+      "order": 7,
+      "text": "القرابة والجاه ينفعان صاحبهما يوم القيامة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 8,
+      "id": "q_008",
+      "order": 8,
+      "text": "الشهداء أمّنَهُم الله تعالى من عذاب الآخرة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 9,
+      "id": "q_009",
+      "order": 9,
+      "text": "كذب أهل القرية بدعوة رسل الله",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 10,
+      "id": "q_010",
+      "order": 10,
+      "text": "حبيب النجار نال الشهادة فتمنى أن يعلم قومه بما ناله من السعادة ليؤمنوا مثله",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 11,
+      "id": "q_011",
+      "order": 11,
+      "text": "الوقف في غير موضعه الصحيح يساعد على فهم الآية",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 12,
+      "id": "q_012",
+      "order": 12,
+      "text": "قال تعالى: (يَا حَسْرَةً عَلَى الْعِبَادِ) في الآية ما يدل على شدة العذاب على المكذبين",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 13,
+      "id": "q_013",
+      "order": 13,
+      "text": "معنى (اϷَْجْدَاثِ) المنازل المرتفعة",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 14,
+      "id": "q_014",
+      "order": 14,
+      "text": "يختم الله على جوارح المجرمين يوم القيامة ويسمح Ϸفواههم أن تتكلم",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 15,
+      "id": "q_015",
+      "order": 15,
+      "text": "اتخذ المشركون اϷصنام آلهة يعبدونها من دون الله لعلها تنصرهم في الدنيا",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 16,
+      "id": "q_016",
+      "order": 16,
+      "text": "مخارج الحروف: هي اϷماكن التي تنشأ منها الحروف عند النطق",
+      "type": "trueFalse",
+      "options": [
+        "صح",
+        "خطأ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 17,
+      "id": "q_017",
+      "order": 17,
+      "text": "... افتتحت سورة لقمان بأحد الحروف المقطعة التالية",
+      "type": "mcq",
+      "options": [
+        "حم",
+        "المص",
+        "الر",
+        "الم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 18,
+      "id": "q_018",
+      "order": 18,
+      "text": ")ٍقال تعالى: (وَمِنَ النّاسِ .......... بِغَيْرِ عِلْمٍ وَϻَ هُدًى وَϻَ كِتَابٍ مُنِير",
+      "type": "mcq",
+      "options": [
+        "ِيَتّخِذُ مِنْ دُونِ ဃّ",
+        "ِيَقُولُ آمَنَا بِا๡ّ",
+        "ِمَنْ يُجَادِلُ فِي ဃّ",
+        "ٍيَعْبُدُ ဃّ َ عَلَى حَرْف"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 19,
+      "id": "q_019",
+      "order": 19,
+      "text": "... قال تعالى: (يَا بُنَيّ أَقِمِ الصّالَةَ وَأْمُرْ بِالْمَعْرُوفِ) الآية الالحقة لها قوله تعالى",
+      "type": "mcq",
+      "options": [
+        "َوَاقْصِدْ فِي مَشْيِك",
+        "وَإِنْ جَاهَدَاكَ عَلى",
+        "َوَϻَ تُصَعرْ خَدّك",
+        "ُيَا بُنَيّ إِنّهَا إِنْ تَك"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 20,
+      "id": "q_020",
+      "order": 20,
+      "text": ")ٍ) وَلَوْ أَنّمَا فِي اϷَْرْضِ مِنْ شَجَرَة-( ........ َقال تعالى: (๡ِّ ِ مَا فِي السّمَاوَاتِ وَاϷَْرْضِ إِنّ ဃّ",
+      "type": "mcq",
+      "options": [
+        "ُهُوَ الْغَنِيُّي الْحَمِيد",
+        "َعَلِيمٌ بِالْمُفْسِدِين",
+        "ٌسَمِيعٌ عَلِيم",
+        "ٌغَفُورٌ رَحِيم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 21,
+      "id": "q_021",
+      "order": 21,
+      "text": "... بدأ لقمان وصاياه ϻبنه بتحذيره من",
+      "type": "mcq",
+      "options": [
+        "الشيطان",
+        "الشرك",
+        "اللهو",
+        "الدنيا"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 22,
+      "id": "q_022",
+      "order": 22,
+      "text": ".أنزل الله ...... من السماء لتستمر حياة المخلوقات على اϷرض",
+      "type": "mcq",
+      "options": [
+        "الشمس",
+        "القمر",
+        "الغيث",
+        "النجوم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 23,
+      "id": "q_023",
+      "order": 23,
+      "text": "... وصف الله عباده المحسنين في أول سورة لقمان بأنهم",
+      "type": "mcq",
+      "options": [
+        "الراشدون",
+        "المفلحون",
+        "الوارثون",
+        "العالمون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 24,
+      "id": "q_024",
+      "order": 24,
+      "text": "... )قال تعالى: (مَا نَفِدَتْ كَلِمَاتُ ဃّ ِ) المراد بـ (نفدت",
+      "type": "mcq",
+      "options": [
+        "ازدادت",
+        "كثرت",
+        "بقيت",
+        "انتهت"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 25,
+      "id": "q_025",
+      "order": 25,
+      "text": "... قال تعالى: (إِنّ ဃّ َ ϻَ يُحِبُّي كُلّ مُخْتَالٍ فَخُورٍ) المقصود بـ (مُخْتَالٍ) في الآية",
+      "type": "mcq",
+      "options": [
+        "حاسد",
+        "متكبر",
+        "جاحد",
+        "كافر"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 26,
+      "id": "q_026",
+      "order": 26,
+      "text": "... توجد (الراء) المفخمة في قوله تعالى",
+      "type": "mcq",
+      "options": [
+        "أَكْرِمِي",
+        "ٍمِنْ خَيْر",
+        "رِزْقًا",
+        "جُرُزًا"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 27,
+      "id": "q_027",
+      "order": 27,
+      "text": "... ترقق الراء إذا كانت ساكنة بسبب الوقف وقبلها ياء",
+      "type": "mcq",
+      "options": [
+        "مضمومة",
+        "متحركة",
+        "ساكنة",
+        "مفتوحة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 28,
+      "id": "q_028",
+      "order": 28,
+      "text": "... قال تعالى: (وَيُنَزِِلُ الْغَيْثَ وَيَعْلَمُ مَا فِي اϷَْرْحَامِ) خُتِمَت الآية بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "ٌعَلِيمٌ حَكِيم",
+        "ٌعَلِيمٌ خَبِير",
+        "ٌبِكُلِِ شَيْءٍ عَلِيم",
+        "َخَبِيرٌ بِمَا تَعْمَلُون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 29,
+      "id": "q_029",
+      "order": 29,
+      "text": ")....... َقال تعالى: (يَسْتَبْشِرُونَ بِنِعْمَةٍ مِنَ ဃّ ِ وَفَضْلٍ وَأَنّ ဃّ َ ϻَ يُضِيعُ أَجْر",
+      "type": "mcq",
+      "options": [
+        "َالْعَامِلِين",
+        "َالْمُحْسِنِين",
+        "َالْمُؤْمِنِين",
+        "َالْمُصْلِحِين"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 30,
+      "id": "q_030",
+      "order": 30,
+      "text": "... قال تعالى: (عَلَى صِرَاطٍ مُسْتَقِيمٍ) الآية التي بعدها قوله تعالى",
+      "type": "mcq",
+      "options": [
+        "ِتَنْزِيلَ الْعَزِيزِ الرّحِيم",
+        "ْلَقَدْ حَقّ الْقَوْلُ عَلَى أَكْثَرِهِم",
+        "ْإِنّا جَعَلْنَا فِي أَعْنَاقِهِم",
+        "ْوَجَعَلْنَا مِنْ بَيْنِ أَيْدِيهِم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 31,
+      "id": "q_031",
+      "order": 31,
+      "text": "... حذّرنا الله في آخر سورة لقمان من",
+      "type": "mcq",
+      "options": [
+        "اϷصدقاء",
+        "الدنيا",
+        "السلطان",
+        "المال"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 32,
+      "id": "q_032",
+      "order": 32,
+      "text": "... الشهيد في سبيل الله",
+      "type": "mcq",
+      "options": [
+        "له قضية وهدف",
+        "ليس له هدف",
+        "ليس له قضية",
+        "له قضية دون هدف"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 33,
+      "id": "q_033",
+      "order": 33,
+      "text": "... وصف الله تعالى كفار قريش في أول سورة (يس) بصفة",
+      "type": "mcq",
+      "options": [
+        "الفطنة",
+        "الغفلة",
+        "الشجاعة",
+        "الكرم"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 34,
+      "id": "q_034",
+      "order": 34,
+      "text": "... قال تعالى: (قَالُوا طَائِرُكُمْ مَعَكُمْ) معنى: (طائركم معكم) أي: سبب شؤمكم هو",
+      "type": "mcq",
+      "options": [
+        "طاعتكم هلل",
+        "إيمانكم باهلل",
+        "قربكم من الله",
+        "كفركم باهلل"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 35,
+      "id": "q_035",
+      "order": 35,
+      "text": "... أهلك الله قوم حبيب النجار بـ",
+      "type": "mcq",
+      "options": [
+        "الريح",
+        "الغرق",
+        "الصيحة",
+        "الطوفان"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 36,
+      "id": "q_036",
+      "order": 36,
+      "text": "... الوقف في موضع يفسد المعنى إذا لم نقف فيه يسمى الوقف",
+      "type": "mcq",
+      "options": [
+        "الكافي",
+        "الالزم",
+        "التام",
+        "الحسن"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 37,
+      "id": "q_037",
+      "order": 37,
+      "text": "... وَرَدَ السكت في القرآن الكريم على حرف (اϷلف) في",
+      "type": "mcq",
+      "options": [
+        "ثالثة مواضع",
+        "أربعة مواضع",
+        "موضعين",
+        "موضع واحد"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 38,
+      "id": "q_038",
+      "order": 38,
+      "text": ")َقال تعالى: (فَالْيَوْمَ ϻَ تُظْلَمُ نَفْسٌ شَيْΌًا ...... تُجْزَوْنَ إِϻّ مَا كُنْتُمْ تَعْمَلُون",
+      "type": "mcq",
+      "options": [
+        "وَمَا",
+        "َ",
+        "خيار 3",
+        "خيار 4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 39,
+      "id": "q_039",
+      "order": 39,
+      "text": ")....... قال تعالى: (الْيَوْمَ نَخْتِمُ عَلَى أَفْوَاهِهِمْ وَتُكَلِِمُنَا أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُمْ بِمَا كَانُوا",
+      "type": "mcq",
+      "options": [
+        "َيُكَذِِبُون",
+        "َيَفْسُقُون",
+        "َيَكْسِبُون",
+        "َيُظْلَمُون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 40,
+      "id": "q_040",
+      "order": 40,
+      "text": "... قال تعالى: (وَمَا عَلّمْنَاهُ الشِِعْرَ) ختمت هذه الآية بقوله تعالى",
+      "type": "mcq",
+      "options": [
+        "ٌوَقُرْآَنٌ مُبِين",
+        "َعَلَى الْكَافِرِين",
+        "َأَفَالَ يَشْكُرُون",
+        "َلَهَا مَالِكُون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 41,
+      "id": "q_041",
+      "order": 41,
+      "text": ".ورد لفظ ...... في سورة (يس) بمعنى اϷمم السابقة",
+      "type": "mcq",
+      "options": [
+        "السنون",
+        "الدهور",
+        "الشهور",
+        "القرون"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 42,
+      "id": "q_042",
+      "order": 42,
+      "text": "... قال تعالى: (اتّقُوا مَا بَيْنَ أَيْدِيكُمْ) المراد بـ (مَا بَيْنَ أَيْدِيكُمْ) هو",
+      "type": "mcq",
+      "options": [
+        "نعيم الدنيا",
+        "عذاب الدنيا",
+        "عذاب الآخرة",
+        "نعيم الآخرة"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 43,
+      "id": "q_043",
+      "order": 43,
+      "text": ".جاء في سورة (يس) أن المؤمنين يجلسون في الجنة هم وأزواجهم في ...... على أسرة متكΌين",
+      "type": "mcq",
+      "options": [
+        "ظالل",
+        "أنهار",
+        "ديباج",
+        "فرش"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 44,
+      "id": "q_044",
+      "order": 44,
+      "text": "... قال تعالى في سورة (يس): (وَلَهُمْ فِيهَا مَنَافِعُ وَمَشَارِبُ) تتحدث هذه الآية عن",
+      "type": "mcq",
+      "options": [
+        "اϷرض",
+        "الماء",
+        "اϷنعام",
+        "اϷنهار"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 45,
+      "id": "q_045",
+      "order": 45,
+      "text": "... أحد الحروف التالية يخرج من الحلق",
+      "type": "mcq",
+      "options": [
+        "الراء",
+        "الهمزة",
+        "السين",
+        "الياء"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    },
+    {
+      "questionNumber": 46,
+      "id": "q_046",
+      "order": 46,
+      "text": "... حرفا (الضاد والالم) يخرجان من",
+      "type": "mcq",
+      "options": [
+        "أقصى اللسان",
+        "الحلق",
+        "حافتي اللسان",
+        "الشفتين"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": ""
+    }
+  ]
+}

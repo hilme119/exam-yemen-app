@@ -1,0 +1,172 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Function to check if the user is signed in
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    // Function to get the user data
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    // Function to check if the user is an admin
+    function isAdmin() {
+      return isSignedIn() && getUserData().role == 'admin';
+    }
+
+    // --- Users Collection ---
+    match /users/{userId} {
+      // Allow all signed-in users to read (needed for leaderboard names/pics)
+      allow read: if isSignedIn();
+      // Only the user themselves can create/update their profile, or an Admin can update any user's profile (like upgrading to admin)
+      allow write: if (isSignedIn() && request.auth.uid == userId) || isAdmin();
+
+      // Allow users to read and write their own bookmarks
+      match /bookmarks/{bookmarkId} {
+        allow read, write: if isSignedIn() && request.auth.uid == userId;
+      }
+
+      // Allow users to read and write their own chats and messages
+      match /chats/{chatId} {
+        allow read, write: if isSignedIn() && request.auth.uid == userId;
+        
+        match /messages/{messageId} {
+          allow read, write: if isSignedIn() && request.auth.uid == userId;
+        }
+      }
+    }
+
+    // --- Settings Collection ---
+    match /settings/{settingId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // --- Grades Collection ---
+    match /grades/{gradeId} {
+      allow read: if isSignedIn(); // All signed-in users can read
+      allow write: if isAdmin();   // Only admins can write
+    }
+
+    // --- Academic Years Collection ---
+    match /academic_years/{yearId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // --- Streams Collection ---
+    match /streams/{streamId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // --- Subjects Collection ---
+    match /subjects/{subjectId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // --- Exams Collection ---
+    match /exams/{examId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+
+      // Nested Questions Collection
+      match /questions/{questionId} {
+         allow read: if isSignedIn();
+         allow write: if isAdmin();
+      }
+    }
+
+    // --- Question Feedbacks Collection ---
+    match /question_feedbacks/{feedbackId} {
+      allow read, write: if isSignedIn();
+    }
+
+    // --- Notifications Collection ---
+    match /notifications/{notificationId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // --- Results Collection ---
+    match /results/{resultId} {
+      // Allow all signed-in users to read results (needed for leaderboard aggregation)
+      allow read: if isSignedIn();
+      
+      // Students can only create results for themselves
+      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+      
+      // Results should generally not be modified or deleted. 
+      // Admins can delete if necessary
+      allow update: if false;
+      allow delete: if isAdmin();
+    }
+    // --- Messages Collection ---
+    match /messages/{messageId} {
+      allow read, write: if isSignedIn();
+    }
+
+    // --- Learning Materials Collection ---
+    match /learning_materials/{materialId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // --- Admission Flow Collections ---
+    match /universities/{docId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    match /majors/{docId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    match /admission_subjects/{docId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    match /admission_exams/{docId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+      match /questions/{questionId} {
+         allow read: if isSignedIn();
+         allow write: if isAdmin();
+      }
+    }
+
+    // --- Competition Flow Collections ---
+    match /competition_semesters/{docId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    match /competition_subjects/{docId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+    match /competition_exams/{docId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+      match /questions/{questionId} {
+         allow read: if isSignedIn();
+         allow write: if isAdmin();
+      }
+    }
+
+    // --- App Config Collection ---
+    match /app_config/{configId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // --- AI Knowledge Base Collection ---
+    match /ai_knowledge_base/{docId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+  }
+}
