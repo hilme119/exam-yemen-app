@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&family=Amiri:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: #e2e8f0;
+  }
+  
+  body {
+    font-family: 'Cairo', 'Tajawal', sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Calm Smooth Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Universal Calm SaaS Cards & Panels */
+.calm-card, .luxury-card, .flutter-card {
+  background-color: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03), 0 4px 12px -2px rgba(15, 23, 42, 0.04) !important;
+  color: #0f172a !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.calm-card:hover, .luxury-card:hover, .flutter-card:hover {
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.04), 0 10px 24px -4px rgba(15, 23, 42, 0.07) !important;
+}
+
+.calm-panel, .luxury-glass-panel {
+  background-color: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 1.25rem !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04) !important;
+  color: #0f172a !important;
+}
+
+.calm-input, .luxury-input, .flutter-input {
+  background-color: #f8fafc !important;
+  border: 1px solid #cbd5e1 !important;
+  color: #0f172a !important;
+  border-radius: 0.75rem !important;
+  transition: all 0.2s ease !important;
+}
+
+.calm-input:focus, .luxury-input:focus, .flutter-input:focus {
+  outline: none !important;
+  background-color: #ffffff !important;
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15) !important;
+}
+
+/* Soft Pill Badges */
+.badge-soft-blue {
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.badge-soft-emerald {
+  background-color: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+}
+
+.badge-soft-amber {
+  background-color: #fffbeb;
+  color: #b45309;
+  border: 1px solid #fde68a;
+}
+
+.badge-soft-purple {
+  background-color: #faf5ff;
+  color: #6b21a8;
+  border: 1px solid #e9d5ff;
+}
+
+.badge-soft-rose {
+  background-color: #fff1f2;
+  color: #be123c;
+  border: 1px solid #fecdd3;
+}
+
+/* Diwani Font */
+.font-aldhabi {
+  font-family: 'Amiri', serif;
+  letter-spacing: 0.5px;
+}
+
+/* Mobile Simulator Container (Clean & Realistic) */
+.mobile-simulator-frame {
+  width: 320px;
+  height: 600px;
+  border-radius: 36px;
+  border: 8px solid #334155;
+  box-shadow: 0 20px 40px -10px rgba(15, 23, 42, 0.2);
+  background: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Remove dark text classes inside white cards gracefully */
+.luxury-card h1, .luxury-card h2, .luxury-card h3, .luxury-card h4, .luxury-card .text-white,
+.calm-card h1, .calm-card h2, .calm-card h3, .calm-card h4, .calm-card .text-white,
+.calm-panel h1, .calm-panel h2, .calm-panel h3, .calm-panel h4, .calm-panel .text-white {
+  color: #0f172a !important;
+}
+
+.luxury-card p.text-slate-300, .luxury-card p.text-slate-400,
+.calm-card p.text-slate-300, .calm-card p.text-slate-400,
+.calm-panel p.text-slate-300, .calm-panel p.text-slate-400 {
+  color: #64748b !important;
+}

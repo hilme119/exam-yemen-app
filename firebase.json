@@ -1,0 +1,53 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "functions": {
+    "source": "functions"
+  },
+  "hosting": [
+    {
+      "target": "website",
+      "public": "website",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**",
+        "**/*.exe",
+        "*.apk",
+        "**/*.apk",
+        "ExamYemen.apk",
+        "*.zip",
+        "**/*.zip",
+        "**/*.bat",
+        "**/*.cmd",
+        "**/*.sh"
+      ],
+      "rewrites": [
+        {
+          "source": "/app/**",
+          "destination": "/app/index.html"
+        },
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "admin",
+      "public": "apps/admin-web/dist",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

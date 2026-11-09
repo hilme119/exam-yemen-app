@@ -1,0 +1,104 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // 1. المناهج، النماذج الوزارية، الأسئلة والمكتبة (قراءة عامة، كتابة للمشرفين والمصرح لهم)
+    match /grades/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /subjects/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /academic_years/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /exams/{examId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+
+      match /questions/{questionId} {
+        allow read: if true;
+        allow write: if request.auth != null;
+      }
+    }
+    match /learning_materials/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // 2. الجامعات واختبارات القبول والمفاضلة
+    match /universities/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /majors/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /admission_subjects/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /admission_exams/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+
+      match /questions/{questionId} {
+        allow read: if true;
+        allow write: if request.auth != null;
+      }
+    }
+
+    // 3. المسابقات والتحديات التنافسية
+    match /competition_semesters/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /competition_subjects/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /competition_exams/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // 4. الحسابات، نتائج الطلاب، الملاحظات، والرسائل
+    match /users/{userId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /results/{resultId} {
+      allow read: if true;
+      allow create, update: if request.auth != null;
+      allow delete: if request.auth != null;
+    }
+    match /question_feedbacks/{feedbackId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if request.auth != null;
+    }
+    match /messages/{messageId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if request.auth != null;
+    }
+    match /notifications/{notificationId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /settings/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // 5. القاعدة العامة لأي مجموعات إضافية (أمان كامل)
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

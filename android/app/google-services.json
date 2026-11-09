@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1085196995430",
+    "project_id": "yemen-national-exam-system",
+    "storage_bucket": "yemen-national-exam-system.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085196995430:android:b3897b8db1e917c25416a7",
+        "android_client_info": {
+          "package_name": "com.example.examyemen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085196995430-4utovfpc3ejopijhq6qvp32vbqm668f0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.examyemen",
+            "certificate_hash": "1b6403072db1a0eba8efed505683bb55bb0c7605"
+          }
+        },
+        {
+          "client_id": "1085196995430-e20fvetndq6ha54kq2fti8ag8e44bkai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.examyemen",
+            "certificate_hash": "0258ef8333e189374593f0fed09673c777ba7b12"
+          }
+        },
+        {
+          "client_id": "1085196995430-lo19lu8j7arhrvmpmiv23vtppiu40fm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnyK07aHJ9sKULQNukyiFVk0nniTJLhNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085196995430-lo19lu8j7arhrvmpmiv23vtppiu40fm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
