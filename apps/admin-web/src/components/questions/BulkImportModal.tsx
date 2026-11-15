@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   X, 
   Upload, 
@@ -48,6 +48,20 @@ export const BulkImportModal: React.FC<BulkImportModalProps> = ({
   const [filterType, setFilterType] = useState<'all' | 'trueFalse' | 'mcq' | 'unanswered'>('all');
   const [answerKeyInput, setAnswerKeyInput] = useState('');
   const [showAnswerKeyBar, setShowAnswerKeyBar] = useState(false);
+
+  // Automatically reset state when modal is closed or opened for a different exam
+  useEffect(() => {
+    if (!isOpen) {
+      setStep('upload');
+      setParsedQuestions([]);
+      setFileName('');
+      setErrorMsg('');
+      setRawText('');
+      setAnswerKeyInput('');
+      setShowAnswerKeyBar(false);
+      setFilterType('all');
+    }
+  }, [isOpen, examTitle]);
 
   if (!isOpen) return null;
 
@@ -370,6 +384,14 @@ export const BulkImportModal: React.FC<BulkImportModalProps> = ({
       const newOpts = [...copy[qIdx].options];
       newOpts[optIdx] = newOpt;
       copy[qIdx] = { ...copy[qIdx], options: newOpts };
+      return copy;
+    });
+  };
+
+  const handleUpdateQuestionExplanation = (qIdx: number, newExp: string) => {
+    setParsedQuestions(prev => {
+      const copy = [...prev];
+      copy[qIdx] = { ...copy[qIdx], explanation: newExp };
       return copy;
     });
   };
@@ -767,6 +789,28 @@ export const BulkImportModal: React.FC<BulkImportModalProps> = ({
                           );
                         })}
                       </div>
+                    </div>
+
+                    {/* Explanation / Notes Editor */}
+                    <div className="space-y-1 pt-1 border-t border-slate-100">
+                      <div className="flex items-center justify-between">
+                        <span className="text-[11px] font-bold text-blue-700 flex items-center gap-1">
+                          <Info className="w-3.5 h-3.5" />
+                          التوضيح والشرح الوزاري (الملاحظات والتعليل):
+                        </span>
+                        {q.explanation && (
+                          <span className="text-[10px] text-blue-700 font-semibold bg-blue-50 px-2 py-0.5 rounded border border-blue-200">
+                            مُضاف
+                          </span>
+                        )}
+                      </div>
+                      <textarea
+                        rows={2}
+                        value={q.explanation || ''}
+                        onChange={(e) => handleUpdateQuestionExplanation(actualIndex, e.target.value)}
+                        placeholder="اكتب التوضيح أو التعليل الوزاري لهذا السؤال هنا (اختياري)..."
+                        className="calm-input w-full p-2.5 text-xs font-medium text-slate-800 bg-blue-50/20 border-blue-200 focus:border-blue-500 resize-none leading-relaxed"
+                      />
                     </div>
                   </div>
                 );

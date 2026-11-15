@@ -93,6 +93,8 @@ export const ExamsView: React.FC<ExamsViewProps> = ({
   const [editingExamId, setEditingExamId] = useState<string | null>(null);
   const [examTitle, setExamTitle] = useState('');
   const [examSubjectId, setExamSubjectId] = useState('');
+  const [modalGrade, setModalGrade] = useState<string>('grade9');
+  const [modalStream, setModalStream] = useState<string | null>(null);
   const [examYear, setExamYear] = useState('2024');
   const [examDuration, setExamDuration] = useState(60);
   const [examIsPdf, setExamIsPdf] = useState(false);
@@ -186,11 +188,45 @@ export const ExamsView: React.FC<ExamsViewProps> = ({
     return null;
   };
 
+  // Subjects filtered strictly for the Add/Edit Exam modal by grade and stream
+  const modalFilteredSubjects = useMemo(() => {
+    return subjects.filter(s => isSubjectMatchingGradeAndStream(s.grade, s.stream, modalGrade, modalStream));
+  }, [subjects, modalGrade, modalStream]);
+
   const openNewExamModal = (presetSubjectId?: string, presetIsPdf?: boolean) => {
     setEditingExamId(null);
     setExamTitle('');
-    setExamSubjectId(presetSubjectId || (subjects.length > 0 ? subjects[0].id : ''));
-    setExamYear(selectedYear || '2024');
+    
+    // Determine active grade and stream
+    let initGrade = 'grade9';
+    let initStream: string | null = null;
+    let targetSubjectId = '';
+
+    if (presetSubjectId) {
+      const foundSub = subjects.find(s => s.id === presetSubjectId);
+      if (foundSub) {
+        initGrade = foundSub.grade;
+        initStream = foundSub.stream || null;
+        targetSubjectId = foundSub.id;
+      }
+    } else if (selectedGrade) {
+      initGrade = selectedGrade;
+      initStream = selectedStream || null;
+    } else if (explorerGradeFilter !== 'all') {
+      initGrade = explorerGradeFilter;
+      initStream = explorerStreamFilter !== 'all' ? explorerStreamFilter : null;
+    }
+
+    setModalGrade(initGrade);
+    setModalStream(initStream);
+
+    if (!targetSubjectId) {
+      const filtered = subjects.filter(s => isSubjectMatchingGradeAndStream(s.grade, s.stream, initGrade, initStream));
+      targetSubjectId = filtered.length > 0 ? filtered[0].id : (subjects.length > 0 ? subjects[0].id : '');
+    }
+
+    setExamSubjectId(targetSubjectId);
+    setExamYear(selectedYear || (years.length > 0 ? years[0].yearLabel : '2025-2026'));
     setExamDuration(60);
     setExamIsPdf(presetIsPdf !== undefined ? presetIsPdf : isPdfType);
     setPdfUrl('');
@@ -1212,18 +1248,56 @@ export const ExamsView: React.FC<ExamsViewProps> = ({
                 />
               </div>
 
+              {/* Grade / Stage Selector */}
               <div className="space-y-1.5">
-                <label className="text-xs font-semibold text-slate-700 block">المادة الدراسية</label>
+                <label className="text-xs font-semibold text-slate-700 block">الصف والمرحلة الدراسية</label>
+                <select
+                  value={`${modalGrade}___${modalStream || 'null'}`}
+                  onChange={(e) => {
+                    const [gId, stVal] = e.target.value.split('___');
+                    const realStream = stVal === 'null' ? null : stVal;
+                    setModalGrade(gId);
+                    setModalStream(realStream);
+                    const matching = subjects.filter(s => isSubjectMatchingGradeAndStream(s.grade, s.stream, gId, realStream));
+                    if (matching.length > 0) {
+                      setExamSubjectId(matching[0].id);
+                    } else {
+                      setExamSubjectId('');
+                    }
+                  }}
+                  className="calm-input w-full py-2.5 px-3.5 text-xs text-slate-900 font-medium"
+                >
+                  {dynamicGradeMeta.map((gm) => (
+                    <option key={`${gm.id}___${gm.stream || 'null'}`} value={`${gm.id}___${gm.stream || 'null'}`}>
+                      {gm.label} ({gm.badge})
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {/* Subject Selection - Strictly Filtered to Selected Grade */}
+              <div className="space-y-1.5">
+                <div className="flex items-center justify-between">
+                  <label className="text-xs font-semibold text-slate-700 block">المادة الدراسية</label>
+                  <span className="text-[11px] text-blue-600 font-bold">
+                    ({modalFilteredSubjects.length} مادة تابعة لهذا الصف)
+                  </span>
+                </div>
                 <select
                   value={examSubjectId}
                   onChange={(e) => setExamSubjectId(e.target.value)}
                   className="calm-input w-full py-2.5 px-3.5 text-xs text-slate-900 font-medium"
+                  required
                 >
-                  {subjects.map(s => (
-                    <option key={s.id} value={s.id}>
-                      {s.name} ({getGradeDisplayName(s.grade, grades)} - {getStreamDisplayName(s.stream)})
-                    </option>
-                  ))}
+                  {modalFilteredSubjects.length === 0 ? (
+                    <option value="" disabled>لا توجد مواد مسجلة لهذا الصف</option>
+                  ) : (
+                    modalFilteredSubjects.map(s => (
+                      <option key={s.id} value={s.id}>
+                        {s.name} ({getStreamDisplayName(s.stream)})
+                      </option>
+                    ))
+                  )}
                 </select>
               </div>
 

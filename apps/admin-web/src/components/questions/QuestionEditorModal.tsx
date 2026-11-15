@@ -38,8 +38,10 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
   const [correctAnswerIndex, setCorrectAnswerIndex] = useState<number>(0);
   const [explanation, setExplanation] = useState('');
   const [questionImageUrl, setQuestionImageUrl] = useState('');
+  const [mobileTab, setMobileTab] = useState<'editor' | 'preview'>('editor');
 
   useEffect(() => {
+    setMobileTab('editor');
     if (initialQuestion) {
       setText(initialQuestion.text || '');
       setType(initialQuestion.type || 'mcq');
@@ -113,36 +115,69 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
   const activeOptions = type === 'trueFalse' ? ['صح', 'خطأ'] : options;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/40 backdrop-blur-sm" dir="rtl">
-      <div className="bg-white relative w-full max-w-6xl max-h-[92vh] overflow-hidden rounded-2xl border border-slate-200 shadow-2xl flex flex-col">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-slate-900/40 backdrop-blur-sm" dir="rtl">
+      <div className="bg-white relative w-full max-w-6xl h-[94vh] max-h-[94vh] overflow-hidden rounded-2xl border border-slate-200 shadow-2xl flex flex-col">
         {/* Modal Header */}
-        <div className="flex items-center justify-between border-b border-slate-100 p-4 bg-slate-50/70">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center border border-blue-100">
+        <div className="flex items-center justify-between border-b border-slate-100 p-3.5 sm:p-4 bg-slate-50/70 gap-2 shrink-0">
+          <div className="flex items-center gap-3 min-w-0">
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center border border-blue-100 shrink-0">
               <Sparkles className="w-5 h-5 stroke-[2.2]" />
             </div>
-            <div>
-              <h3 className="text-base font-bold text-slate-900">
+            <div className="min-w-0">
+              <h3 className="text-sm sm:text-base font-bold text-slate-900 truncate">
                 {initialQuestion ? 'تعديل بيانات السؤال' : 'محرر الأسئلة الوزارية الذكي'}
               </h3>
               {examTitle && (
-                <p className="text-xs text-blue-600 font-semibold">{examTitle}</p>
+                <p className="text-xs text-blue-600 font-semibold truncate max-w-[180px] sm:max-w-xs md:max-w-md">{examTitle}</p>
               )}
             </div>
           </div>
 
+          {/* Mobile/Tablet Switcher Tabs (< lg) */}
+          <div className="flex lg:hidden items-center bg-slate-200/80 p-0.5 sm:p-1 rounded-xl shrink-0">
+            <button
+              type="button"
+              onClick={() => setMobileTab('editor')}
+              className={`px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 sm:gap-1.5 ${
+                mobileTab === 'editor'
+                  ? 'bg-white text-blue-600 shadow-xs'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>التحرير</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setMobileTab('preview')}
+              className={`px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 sm:gap-1.5 ${
+                mobileTab === 'preview'
+                  ? 'bg-white text-blue-600 shadow-xs'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              <Smartphone className="w-3.5 h-3.5" />
+              <span>معاينة الهاتف</span>
+            </button>
+          </div>
+
           <button
             onClick={onClose}
-            className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-100 hover:text-slate-700 transition-all"
+            className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-100 hover:text-slate-700 transition-all shrink-0"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
         {/* Modal Body: Split Screen */}
-        <div className="flex-1 overflow-y-auto flex flex-col lg:flex-row divide-y lg:divide-y-0 lg:divide-x lg:divide-x-reverse divide-slate-100">
+        <div className="flex-1 overflow-hidden min-h-0 flex flex-col lg:flex-row divide-y lg:divide-y-0 lg:divide-x lg:divide-x-reverse divide-slate-100">
           {/* Form Editor (Right / Main) */}
-          <form onSubmit={handleSubmit} className="flex-1 p-6 space-y-5 overflow-y-auto">
+          <form
+            onSubmit={handleSubmit}
+            className={`flex-1 p-4 sm:p-6 space-y-5 overflow-y-auto min-h-0 ${
+              mobileTab === 'preview' ? 'hidden lg:block' : 'block'
+            }`}
+          >
             {/* Question Type Selection */}
             <div className="flex items-center justify-between p-3.5 rounded-xl bg-slate-50 border border-slate-200">
               <span className="text-xs font-semibold text-slate-700">نوع السؤال الوزاري:</span>
@@ -379,29 +414,53 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
             </div>
 
             {/* Bottom Actions */}
-            <div className="flex items-center justify-end gap-2.5 pt-3 border-t border-slate-100">
+            <div className="flex flex-wrap items-center justify-between gap-2.5 pt-3 border-t border-slate-100">
               <button
                 type="button"
-                onClick={onClose}
-                className="px-4 py-2 rounded-xl border border-slate-200 text-slate-600 hover:bg-slate-50 text-xs font-semibold transition-colors"
+                onClick={() => setMobileTab('preview')}
+                className="lg:hidden inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition-colors"
               >
-                إلغاء
+                <Smartphone className="w-3.5 h-3.5 text-blue-600" />
+                <span>معاينة الهاتف</span>
               </button>
-              <button
-                type="submit"
-                className="inline-flex items-center gap-1.5 px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-sm transition-all"
-              >
-                <CheckCircle2 className="w-4 h-4" />
-                <span>حفظ السؤال في النموذج</span>
-              </button>
+
+              <div className="flex items-center gap-2.5 mr-auto">
+                <button
+                  type="button"
+                  onClick={onClose}
+                  className="px-4 py-2 rounded-xl border border-slate-200 text-slate-600 hover:bg-slate-50 text-xs font-semibold transition-colors"
+                >
+                  إلغاء
+                </button>
+                <button
+                  type="submit"
+                  className="inline-flex items-center gap-1.5 px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-sm transition-all"
+                >
+                  <CheckCircle2 className="w-4 h-4" />
+                  <span>حفظ السؤال في النموذج</span>
+                </button>
+              </div>
             </div>
           </form>
 
           {/* Live Mobile Simulator Preview (Left Side) */}
-          <div className="w-full lg:w-[360px] p-6 bg-slate-50/80 flex flex-col items-center justify-center space-y-3">
-            <div className="flex items-center gap-1.5 text-xs font-bold text-slate-700">
-              <Smartphone className="w-4 h-4 text-blue-600" />
-              <span>معاينة حية في تطبيق الطالب</span>
+          <div
+            className={`w-full lg:w-[360px] p-4 sm:p-6 bg-slate-50/80 flex-col items-center justify-start lg:justify-center space-y-3 overflow-y-auto min-h-0 ${
+              mobileTab === 'preview' ? 'flex flex-1' : 'hidden lg:flex'
+            }`}
+          >
+            <div className="flex items-center justify-between w-full max-w-[320px] px-1">
+              <div className="flex items-center gap-1.5 text-xs font-bold text-slate-700">
+                <Smartphone className="w-4 h-4 text-blue-600" />
+                <span>معاينة حية في تطبيق الطالب</span>
+              </div>
+              <button
+                type="button"
+                onClick={() => setMobileTab('editor')}
+                className="lg:hidden text-xs text-blue-600 font-bold hover:underline py-1 px-2 rounded-lg hover:bg-blue-50"
+              >
+                العودة للتحرير &larr;
+              </button>
             </div>
 
             <div className="mobile-simulator-frame p-4 flex flex-col justify-between text-right bg-white">
@@ -474,6 +533,16 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
                 <span className="text-slate-400">1 من 50</span>
               </div>
             </div>
+
+            {/* Mobile Return Button */}
+            <button
+              type="button"
+              onClick={() => setMobileTab('editor')}
+              className="lg:hidden mt-2 px-5 py-2.5 rounded-xl bg-blue-600 text-white text-xs font-bold shadow-sm hover:bg-blue-700 transition-all flex items-center gap-1.5"
+            >
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>العودة لتحرير بيانات السؤال</span>
+            </button>
           </div>
         </div>
       </div>

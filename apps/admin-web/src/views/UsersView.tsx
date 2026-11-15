@@ -44,12 +44,13 @@ export const UsersView: React.FC<UsersViewProps> = ({
 
   // Helper to extract timestamp for sorting
   const getTimestamp = (u: UserModel): number => {
-    if (!u.createdAt) return 0;
-    if (typeof u.createdAt === 'object') {
-      if (typeof u.createdAt.toDate === 'function') return u.createdAt.toDate().getTime();
-      if (u.createdAt.seconds) return u.createdAt.seconds * 1000;
+    const raw = u.createdAt || (u as any).tokenUpdatedAt || (u as any).updatedAt;
+    if (!raw) return 0;
+    if (typeof raw === 'object') {
+      if (typeof (raw as any).toDate === 'function') return (raw as any).toDate().getTime();
+      if ((raw as any).seconds) return (raw as any).seconds * 1000;
     }
-    const t = new Date(u.createdAt).getTime();
+    const t = new Date(raw as any).getTime();
     return isNaN(t) ? 0 : t;
   };
 
@@ -231,7 +232,7 @@ export const UsersView: React.FC<UsersViewProps> = ({
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {filteredAndSortedUsers.map((u) => {
           const isAdmin = u.role === 'admin';
-          const joinDateFormatted = formatFirestoreDate(u.createdAt);
+          const joinDateFormatted = formatFirestoreDate(u.createdAt || (u as any).tokenUpdatedAt || (u as any).updatedAt);
           const studentGrade = u.grade || u.gradeLevel;
 
           return (

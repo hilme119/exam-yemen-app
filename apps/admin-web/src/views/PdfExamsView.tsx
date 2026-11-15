@@ -27,7 +27,8 @@ import {
   getGradeDisplayName, 
   getStreamDisplayName, 
   normalizeGrade, 
-  normalizeStream 
+  normalizeStream,
+  isSubjectMatchingGradeAndStream
 } from '../utils/formatters';
 import { uploadMediaFile } from '../services/uploadService';
 
@@ -67,6 +68,7 @@ export const PdfExamsView: React.FC<PdfExamsViewProps> = ({
   const [formTitle, setFormTitle] = useState('');
   const [formSubjectId, setFormSubjectId] = useState('');
   const [formGrade, setFormGrade] = useState('grade9');
+  const [formStream, setFormStream] = useState<string | null>(null);
   const [formYear, setFormYear] = useState('2025-2026');
   const [formPdfUrl, setFormPdfUrl] = useState('');
   const [formQuestionsCount, setFormQuestionsCount] = useState<number>(50);
@@ -145,12 +147,42 @@ export const PdfExamsView: React.FC<PdfExamsViewProps> = ({
     return found ? found.name : subId;
   };
 
+  // Modal filtered subjects strictly by grade and stream
+  const modalFilteredSubjects = useMemo(() => {
+    return subjects.filter(s => isSubjectMatchingGradeAndStream(s.grade, s.stream, formGrade, formStream));
+  }, [subjects, formGrade, formStream]);
+
   // Open modal for new exam
   const handleOpenAddModal = (presetSubjectId?: string, presetYear?: string) => {
     const firstDbYear = years.length > 0 ? (years[0].yearLabel || (years[0] as any).year) : '2025-2026';
     setEditingExamId(null);
     setFormTitle('');
-    setFormSubjectId(presetSubjectId || (subjects.length > 0 ? subjects[0].id : ''));
+
+    let initGrade = 'grade9';
+    let initStream: string | null = null;
+    let targetSubId = '';
+
+    if (presetSubjectId) {
+      const foundSub = subjects.find(s => s.id === presetSubjectId);
+      if (foundSub) {
+        initGrade = foundSub.grade;
+        initStream = foundSub.stream || null;
+        targetSubId = foundSub.id;
+      }
+    } else if (selectedGradeFilter !== 'all') {
+      initGrade = selectedGradeFilter;
+      initStream = selectedStreamFilter !== 'all' ? selectedStreamFilter : null;
+    }
+
+    setFormGrade(initGrade);
+    setFormStream(initStream);
+
+    if (!targetSubId) {
+      const filtered = subjects.filter(s => isSubjectMatchingGradeAndStream(s.grade, s.stream, initGrade, initStream));
+      targetSubId = filtered.length > 0 ? filtered[0].id : (subjects.length > 0 ? subjects[0].id : '');
+    }
+
+    setFormSubjectId(targetSubId);
     setFormYear(presetYear && presetYear !== 'الكل' ? presetYear : firstDbYear);
     setFormPdfUrl('');
     setFormQuestionsCount(50);
@@ -632,27 +664,59 @@ export const PdfExamsView: React.FC<PdfExamsViewProps> = ({
                 </div>
               )}
 
-              {/* Subject Selection */}
+              {/* Grade / Track Selection */}
               <div>
                 <label className="block text-xs font-semibold text-slate-300 mb-1.5">
-                  المادة الدراسية:
+                  الصف والمرحلة الدراسية:
                 </label>
+                <select
+                  value={`${formGrade}___${formStream || 'null'}`}
+                  onChange={(e) => {
+                    const [gId, stVal] = e.target.value.split('___');
+                    const realStream = stVal === 'null' ? null : stVal;
+                    setFormGrade(gId);
+                    setFormStream(realStream);
+                    const matching = subjects.filter(s => isSubjectMatchingGradeAndStream(s.grade, s.stream, gId, realStream));
+                    if (matching.length > 0) {
+                      setFormSubjectId(matching[0].id);
+                    } else {
+                      setFormSubjectId('');
+                    }
+                  }}
+                  className="luxury-input w-full py-2.5 px-3 text-xs bg-slate-900 text-white"
+                >
+                  <option value="grade9___null">الصف التاسع الأساسي (عام)</option>
+                  <option value="grade12___scientific">الثالث الثانوي - القسم العلمي</option>
+                  <option value="grade12___literary">الثالث الثانوي - القسم الأدبي</option>
+                  <option value="grade12_english___english">ثالث ثانوي قسم إنجليزي</option>
+                </select>
+              </div>
+
+              {/* Subject Selection - Strictly Filtered */}
+              <div>
+                <div className="flex items-center justify-between mb-1.5">
+                  <label className="block text-xs font-semibold text-slate-300">
+                    المادة الدراسية:
+                  </label>
+                  <span className="text-[11px] text-blue-400 font-bold">
+                    ({modalFilteredSubjects.length} مادة تابعة لهذا الصف)
+                  </span>
+                </div>
                 <select
                   value={formSubjectId}
                   onChange={(e) => setFormSubjectId(e.target.value)}
                   className="luxury-input w-full py-2.5 px-3 text-xs bg-slate-900 text-white"
                   required
                 >
-                  <option value="" disabled>اختر المادة...</option>
-                  {subjects.map((s) => {
-                    const gradeName = getGradeDisplayName(s.grade, grades);
-                    const streamText = getStreamDisplayName(s.stream);
-                    return (
+                  {modalFilteredSubjects.length === 0 ? (
+                    <option value="" disabled>لا توجد مواد مسجلة لهذا الصف</option>
+                  ) : (
+                    modalFilteredSubjects.map((s) => (
                       <option key={s.id} value={s.id}>
-                        {s.name} ({gradeName} - {streamText})
+                        {s.name} ({getStreamDisplayName(s.stream)})
                       </option>
-                    );
-                  })}
+                    ))
+                  )}
                 </select>
               </div>
 

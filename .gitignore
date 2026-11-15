@@ -18,10 +18,8 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# VS Code
+.vscode/
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -33,32 +31,73 @@ migrate_working_dir/
 /build/
 /coverage/
 
-# Symbolication related
+# Symbolication / Obfuscation
 app.*.symbols
-
-# Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
+# Android Studio build artifacts
+android/build/
 /android/app/debug
 /android/app/profile
 /android/app/release
 
-# Custom ignores for Web, Python, and Large Binaries
+# Node / Web Build
 node_modules/
 **/node_modules/
 dist/
 **/dist/
 .venv/
+
+# Binaries & Archives
 *.apk
 **/*.apk
 *.zip
 *.exe
+*.pdf
 
+# Temporary & Working Files
 temp_*
-*.log
 *.tmp
 *.csv
 *.xlsx
-*.pdf
 temp_puppeteer/
+
+# Firebase local caches
+.firebase/
+public/
+
+# Exam Extraction, PDFs & Local Exam Data
+extracted_exams/
+image/
+
+# Python scripts & extraction tooling
+*.py
+
+# Root one-off scripts, logs & temporary data files
+/*.png
+/*.jpg
+/*.jpeg
+/*.txt
+/*.log
+/*.dart
+/*.js
+conversation.md
+all_repaired_data.json
+sample_exam_template.json
+arabic_exam_*.json
+biology_exam_*.json
+islamic_exam_*.json
+quran_exam_*.json
+surah_*.json
+projects*.json
+extracted_models_*.json
+rules_error*.txt
+files_list.txt
+build_log.txt
+firestore.rules.backup
+
+# Admin Web one-off scripts (preserve config files)
+apps/admin-web/*.js
+!apps/admin-web/vite.config.*
+!apps/admin-web/tailwind.config.*
+!apps/admin-web/postcss.config.*

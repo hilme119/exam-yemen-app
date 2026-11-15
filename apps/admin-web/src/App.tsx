@@ -412,14 +412,35 @@ export const App: React.FC = () => {
   };
 
   // Questions Handlers
+  const sanitizeForFirestore = (obj: Record<string, any>) => {
+    const clean: Record<string, any> = {};
+    Object.keys(obj).forEach(key => {
+      if (obj[key] !== undefined) {
+        clean[key] = obj[key];
+      }
+    });
+    return clean;
+  };
+
   const handleSaveQuestion = async (question: Question) => {
     if (!activeExamForQuestions) return;
     const examId = activeExamForQuestions.id;
 
     try {
-      await setDoc(doc(db, 'exams', examId, 'questions', question.id), question);
+      const cleanData = sanitizeForFirestore(question);
+      await setDoc(doc(db, 'exams', examId, 'questions', question.id), cleanData);
+      
+      const isNew = !currentExamQuestions.some(q => q.id === question.id);
+      const newCount = isNew ? currentExamQuestions.length + 1 : currentExamQuestions.length;
       await updateDoc(doc(db, 'exams', examId), {
-        questionsCount: currentExamQuestions.length + 1,
+        questionsCount: newCount,
+      });
+      setExams(prev => prev.map(e => e.id === examId ? { ...e, questionsCount: newCount } : e));
+      
+      // Immediately reflect in local state as well
+      setCurrentExamQuestions(prev => {
+        const exists = prev.some(q => q.id === question.id);
+        return exists ? prev.map(q => q.id === question.id ? question : q) : [...prev, question];
       });
     } catch (e) {
       console.error('Error saving question:', e);
@@ -436,6 +457,12 @@ export const App: React.FC = () => {
 
     try {
       await deleteDoc(doc(db, 'exams', examId, 'questions', qId));
+      const newCount = Math.max(0, currentExamQuestions.length - 1);
+      await updateDoc(doc(db, 'exams', examId), {
+        questionsCount: newCount,
+      });
+      setExams(prev => prev.map(e => e.id === examId ? { ...e, questionsCount: newCount } : e));
+      setCurrentExamQuestions(prev => prev.filter(q => q.id !== qId));
     } catch (e) {
       console.error('Error deleting question:', e);
       setCurrentExamQuestions(prev => prev.filter(q => q.id !== qId));
@@ -453,6 +480,15 @@ export const App: React.FC = () => {
         console.error(e);
       }
     }
+    try {
+      await updateDoc(doc(db, 'exams', examId), {
+        questionsCount: 0,
+      });
+      setExams(prev => prev.map(e => e.id === examId ? { ...e, questionsCount: 0 } : e));
+      setCurrentExamQuestions([]);
+    } catch (e) {
+      console.error('Error zeroing questionsCount:', e);
+    }
   };
 
   const handleBulkImport = async (questions: Question[]) => {
@@ -461,10 +497,22 @@ export const App: React.FC = () => {
 
     for (const q of questions) {
       try {
-        await setDoc(doc(db, 'exams', examId, 'questions', q.id), q);
+        const cleanData = sanitizeForFirestore(q);
+        await setDoc(doc(db, 'exams', examId, 'questions', q.id), cleanData);
       } catch (e) {
         console.error('Bulk import item error:', e);
       }
+    }
+
+    try {
+      const finalCount = questions.length;
+      await updateDoc(doc(db, 'exams', examId), {
+        questionsCount: finalCount,
+      });
+      setExams(prev => prev.map(e => e.id === examId ? { ...e, questionsCount: finalCount } : e));
+      setCurrentExamQuestions(questions);
+    } catch (e) {
+      console.error('Error updating exam questionsCount after bulk import:', e);
     }
   };
 

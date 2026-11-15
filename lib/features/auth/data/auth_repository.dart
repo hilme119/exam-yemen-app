@@ -80,11 +80,14 @@ class AuthRepository {
       role: UserRole.student,
     );
 
-    // 3. حفظ بيانات الطالب الفريدة في Firestore
+    // 3. حفظ بيانات الطالب الفريدة في Firestore مع تاريخ الإنشاء
     await _firestore
         .collection('users')
         .doc(credential.user!.uid)
-        .set(userModel.toJson());
+        .set({
+          ...userModel.toJson(),
+          'createdAt': FieldValue.serverTimestamp(),
+        });
 
     return userModel;
   }
